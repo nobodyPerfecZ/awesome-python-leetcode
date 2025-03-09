@@ -8,6 +8,7 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [27 Remove Element](https://leetcode.com/problems/remove-element/description/)
 - [80 Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/)
 - [88 Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)
+- [121 Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
 - [169 Majority Element](https://leetcode.com/problems/majority-element/description/)
 
 ## Development 🔧

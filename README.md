@@ -14,4 +14,4 @@ Contributions are welcome!
 
 Please fork the repository and submit a pull request.
 
-Make sure to follow the coding standards and write tests for any new leetcode problems or bug fixes.
+Make sure to follow the coding standards and write tests for any new leetcode problem or bug fix.

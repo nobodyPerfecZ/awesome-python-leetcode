@@ -42,6 +42,7 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [202 Happy Number](https://leetcode.com/problems/happy-number/description/)
 - [205 Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)
 - [219 Contains Duplicates II](https://leetcode.com/problems/contains-duplicate-ii/description/)
+- [228 Summary Ranges](https://leetcode.com/problems/summary-ranges/description/)
 - [242 Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
 - [290 Word Pattern](https://leetcode.com/problems/word-pattern/description/)
 - [383 Ransom Note](https://leetcode.com/problems/ransom-note/description/)

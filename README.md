@@ -1,4 +1,25 @@
-# 💡 Awesome Python Leetcode [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<div align="middle">
+    <h1>
+        💡 Awesome Python Leetcode 
+        <br>
+        <a href="https://awesome.re">
+            <img src="https://awesome.re/badge.svg">
+        </a>
+        <a href="https://github.com/psf/black">
+            <img src="https://img.shields.io/badge/code%20style-black-000000.svg">
+        </a>
+        <a>
+            <img src="https://img.shields.io/badge/python-3.10-blue">
+        </a>
+        <a>
+            <img src="https://img.shields.io/badge/tests-passed-brightgreen">
+        </a>
+        <a>
+            <img src="https://img.shields.io/badge/coverage-98%25-brightgreen">
+        </a>
+    </h1>
+</div>
+
 
 This repository contains awesome LeetCode problems and solutions written in Python to prepare for coding interviews.
 

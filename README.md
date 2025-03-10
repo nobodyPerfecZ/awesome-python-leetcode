@@ -11,6 +11,7 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [121 Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
 - [122 Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
 - [169 Majority Element](https://leetcode.com/problems/majority-element/description/)
+- [189 Rotate Array](https://leetcode.com/problems/rotate-array/description/)
 
 ## Development 🔧
 

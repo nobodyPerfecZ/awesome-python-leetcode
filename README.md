@@ -4,6 +4,7 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 
 ## Leetcode Problems & Solutions 💻
 
+- [1 Two Sum](https://leetcode.com/problems/two-sum/description/)
 - [26 Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
 - [27 Remove Element](https://leetcode.com/problems/remove-element/description/)
 - [45 Jump Game II](https://leetcode.com/problems/jump-game-ii/description/)

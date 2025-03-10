@@ -15,6 +15,7 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [125 Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)
 - [169 Majority Element](https://leetcode.com/problems/majority-element/description/)
 - [189 Rotate Array](https://leetcode.com/problems/rotate-array/description/)
+- [383 Ransom Note](https://leetcode.com/problems/ransom-note/description/)
 - [392 Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)
 
 ## Development 🔧

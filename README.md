@@ -48,6 +48,7 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [290 Word Pattern](https://leetcode.com/problems/word-pattern/description/)
 - [383 Ransom Note](https://leetcode.com/problems/ransom-note/description/)
 - [392 Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)
+- [452 Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)
 
 ## Development 🔧
 

@@ -40,6 +40,7 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [122 Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
 - [125 Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)
 - [128 Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)
+- [150 Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
 - [155 Min Stack](https://leetcode.com/problems/min-stack/description/)
 - [169 Majority Element](https://leetcode.com/problems/majority-element/description/)
 - [189 Rotate Array](https://leetcode.com/problems/rotate-array/description/)

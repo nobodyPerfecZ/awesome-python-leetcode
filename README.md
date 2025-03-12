@@ -33,6 +33,7 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [55 Jump Game](https://leetcode.com/problems/jump-game/description/)
 - [56 Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)
 - [57 Insert Interval](https://leetcode.com/problems/insert-interval/description/)
+- [71 Simplify Path](https://leetcode.com/problems/simplify-path/description/)
 - [80 Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/)
 - [88 Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)
 - [121 Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)

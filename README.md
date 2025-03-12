@@ -48,6 +48,7 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [205 Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)
 - [219 Contains Duplicates II](https://leetcode.com/problems/contains-duplicate-ii/description/)
 - [224 Basic Calculator](https://leetcode.com/problems/basic-calculator/description/)
+- [227 Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/description/)
 - [228 Summary Ranges](https://leetcode.com/problems/summary-ranges/description/)
 - [242 Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
 - [290 Word Pattern](https://leetcode.com/problems/word-pattern/description/)

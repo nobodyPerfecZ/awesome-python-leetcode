@@ -2,10 +2,12 @@ from typing import List
 
 
 class Solution:
+    """Base class for all LeetCode Problems."""
+
     def longestConsecutive(self, nums: List[int]) -> int:
         """
-        Given an unsorted array of integers nums, return the length of the
-        longest consecutive elements sequence.
+        Given an unsorted array of integers nums, return the length of the longest
+        consecutive elements sequence.
 
         You must write an algorithm that runs in O(n) time.
         """

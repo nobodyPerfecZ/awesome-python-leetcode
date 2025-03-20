@@ -1,4 +1,6 @@
 class Solution:
+    """Base class for all LeetCode Problems."""
+
     def isValid(self, s: str) -> bool:
         """
         Given a string s containing just the characters '(', ')', '{', '}', '[' and ']',

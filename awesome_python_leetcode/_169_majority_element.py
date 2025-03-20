@@ -2,6 +2,8 @@ from typing import List
 
 
 class Solution:
+    """Base class for all LeetCode Problems."""
+
     def majorityElement(self, nums: List[int]) -> int:
         """
         Given an array nums of size n, return the majority element.

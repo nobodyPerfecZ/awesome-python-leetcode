@@ -3,12 +3,15 @@ from typing import List
 
 
 class Solution:
+    """Base class for all LeetCode Problems."""
+
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         """
-        Given an array of strings strs, group the anagrams together. You can return the answer in any order.
+        Given an array of strings strs, group the anagrams together. You can return the
+        answer in any order.
 
-        An anagram is a word or phrase formed by rearranging the letters of a different word or phrase,
-        using all the original letters exactly once.
+        An anagram is a word or phrase formed by rearranging the letters of a different
+        word or phrase, using all the original letters exactly once.
         """
         res = defaultdict(list)
         for s in strs:

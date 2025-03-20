@@ -2,9 +2,12 @@ from typing import List
 
 
 class Solution:
+    """Base class for all LeetCode Problems."""
+
     def rotate(self, nums: List[int], k: int) -> None:
         """
-        Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
+        Given an integer array nums, rotate the array to the right by k steps, where k
+        is non-negative.
         """
 
         def rev(left: int, right: int):

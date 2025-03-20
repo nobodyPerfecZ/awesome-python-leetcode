@@ -14,5 +14,6 @@ from awesome_python_leetcode._1_two_sum import Solution
     ],
 )
 def test_func(nums: List[int], target: int, expected: List[int]):
+    """Tests the solution of a LeetCode problem."""
     two_sum = Solution().twoSum(nums, target)
     assert two_sum == expected

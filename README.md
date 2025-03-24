@@ -37,6 +37,7 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [71 Simplify Path](https://leetcode.com/problems/simplify-path/description/)
 - [80 Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/)
 - [88 Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)
+- [98 Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)
 - [100 Same Tree](https://leetcode.com/problems/same-tree/description/)
 - [101 Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/)
 - [102 Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)
@@ -70,12 +71,14 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [226 Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)
 - [227 Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/description/)
 - [228 Summary Ranges](https://leetcode.com/problems/summary-ranges/description/)
+- [230 Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)
 - [236 Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)
 - [242 Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
 - [290 Word Pattern](https://leetcode.com/problems/word-pattern/description/)
 - [383 Ransom Note](https://leetcode.com/problems/ransom-note/description/)
 - [392 Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)
 - [452 Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)
+- [530 Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/)
 - [637 Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/description/)
 
 ## Development 🔧

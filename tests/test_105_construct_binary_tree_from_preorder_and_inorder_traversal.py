@@ -17,6 +17,7 @@ from awesome_python_leetcode._105_construct_binary_tree_from_preorder_and_inorde
     ],
 )
 def test_func(preorder: List[int], inorder: List[int], expected: List[int]):
+    """Tests the solution of a LeetCode problem."""
     solution = TreeNode.build(expected)
     actual = Solution().buildTree(preorder, inorder)
     assert TreeNode.compare(actual, solution) is True

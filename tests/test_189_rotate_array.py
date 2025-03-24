@@ -13,5 +13,6 @@ from awesome_python_leetcode._189_rotate_array import Solution
     ],
 )
 def test_func(nums: List[int], k: int, expected: int):
+    """Tests the solution of a LeetCode problem."""
     Solution().rotate(nums, k)
     assert nums == expected

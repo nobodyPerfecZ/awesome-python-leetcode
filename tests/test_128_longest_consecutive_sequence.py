@@ -13,5 +13,6 @@ from awesome_python_leetcode._128_longest_consecutive_sequence import Solution
     ],
 )
 def test_func(nums: List[int], expected: int):
+    """Tests the solution of a LeetCode problem."""
     longest_consecutive = Solution().longestConsecutive(nums)
     assert longest_consecutive == expected

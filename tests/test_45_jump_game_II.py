@@ -13,5 +13,6 @@ from awesome_python_leetcode._45_jump_game_II import Solution
     ],
 )
 def test_func(nums: List[int], expected: int):
+    """Tests the solution of a LeetCode problem."""
     num_jumps = Solution().jump(nums)
     assert num_jumps == expected

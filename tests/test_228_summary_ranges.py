@@ -13,5 +13,6 @@ from awesome_python_leetcode._228_summary_ranges import Solution
     ],
 )
 def test_func(nums: List[int], expected: List[str]):
+    """Tests the solution of a LeetCode problem."""
     ranges = Solution().summaryRanges(nums)
     assert ranges == expected

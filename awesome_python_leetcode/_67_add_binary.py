@@ -1,4 +1,6 @@
 class Solution:
+    """Base class for all LeetCode Problems."""
+
     def addBinary(self, a: str, b: str) -> str:
         """Given two binary strings a and b, return their sum as a binary string."""
         result, overhead = "", "0"

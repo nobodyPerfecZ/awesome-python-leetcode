@@ -11,5 +11,6 @@ from awesome_python_leetcode._202_happy_number import Solution
     ],
 )
 def test_func(n: int, expected: bool):
+    """Tests the solution of a LeetCode problem."""
     is_happy = Solution().isHappy(n)
     assert is_happy == expected

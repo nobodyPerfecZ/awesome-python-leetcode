@@ -21,5 +21,6 @@ def test_func(
     newInterval: List[int],
     expected: List[List[int]],
 ):
+    """Tests the solution of a LeetCode problem."""
     inserted_intervals = Solution().insert(intervals, newInterval)
     assert inserted_intervals == expected

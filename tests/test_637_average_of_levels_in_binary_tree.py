@@ -14,6 +14,7 @@ from awesome_python_leetcode.tree import TreeNode
     ],
 )
 def test_func(root: List[int], expected: List[float]):
+    """Tests the solution of a LeetCode problem."""
     root = TreeNode.build(root)
     average_of_levels = Solution().averageOfLevels(root)
     assert average_of_levels == expected

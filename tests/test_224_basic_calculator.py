@@ -12,5 +12,6 @@ from awesome_python_leetcode._224_basic_calculator import Solution
     ],
 )
 def test_func(s: str, expected: int):
+    """Tests the solution of a LeetCode problem."""
     result = Solution().calculate(s)
     assert result == expected

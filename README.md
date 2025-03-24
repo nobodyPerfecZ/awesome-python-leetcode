@@ -39,6 +39,8 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [88 Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)
 - [100 Same Tree](https://leetcode.com/problems/same-tree/description/)
 - [101 Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/)
+- [102 Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)
+- [103 Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)
 - [104 Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)
 - [105 Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)
 - [106 Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/)

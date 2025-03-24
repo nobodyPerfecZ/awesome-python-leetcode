@@ -14,6 +14,7 @@ from awesome_python_leetcode._100_same_tree import Solution, TreeNode
     ],
 )
 def test_func(p: List[int], q: List[int], expected: bool):
+    """Tests the solution of a LeetCode problem."""
     p = TreeNode.build(p)
     q = TreeNode.build(q)
     is_same_tree = Solution().isSameTree(p, q)

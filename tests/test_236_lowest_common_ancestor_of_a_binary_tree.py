@@ -17,6 +17,7 @@ from awesome_python_leetcode._236_lowest_common_ancestor_of_a_binary_tree import
     ],
 )
 def test_func(root: List[int], p: int, q: int, expected: List[int]):
+    """Tests the solution of a LeetCode problem."""
     root = TreeNode.build(root)
     p = TreeNode.find(root, p)
     q = TreeNode.find(root, q)

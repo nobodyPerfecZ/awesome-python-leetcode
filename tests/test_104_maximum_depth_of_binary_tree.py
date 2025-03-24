@@ -13,6 +13,7 @@ from awesome_python_leetcode._104_maximum_depth_of_binary_tree import Solution, 
     ],
 )
 def test_func(root: List[int], expected: int):
+    """Tests the solution of a LeetCode problem."""
     root = TreeNode.build(root)
     max_depth = Solution().maxDepth(root)
     assert max_depth == expected

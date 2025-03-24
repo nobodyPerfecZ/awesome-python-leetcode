@@ -12,5 +12,6 @@ from awesome_python_leetcode._290_word_pattern import Solution
     ],
 )
 def test_func(pattern: str, s: str, expected: bool):
+    """Tests the solution of a LeetCode problem."""
     word_pattern = Solution().wordPattern(pattern, s)
     assert word_pattern == expected

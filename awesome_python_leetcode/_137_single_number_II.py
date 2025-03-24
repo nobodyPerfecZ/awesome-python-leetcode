@@ -2,6 +2,8 @@ from typing import List
 
 
 class Solution:
+    """Base class for all LeetCode Problems."""
+
     def singleNumber(self, nums: List[int]) -> int:
         """
         Given an integer array nums where every element appears three times except for

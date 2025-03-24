@@ -14,6 +14,7 @@ from awesome_python_leetcode._222_count_complete_tree_nodes import Solution, Tre
     ],
 )
 def test_func(root: List[int], expected: int):
+    """Tests the solution of a LeetCode problem."""
     root = TreeNode.build(root)
     num_nodes = Solution().countNodes(root)
     assert num_nodes == expected

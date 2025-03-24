@@ -14,5 +14,6 @@ from awesome_python_leetcode._88_merge_sorted_array import Solution
     ],
 )
 def test_func(nums1: List[int], m: int, nums2: List[int], n: int, expected: List[int]):
+    """Tests the solution of a LeetCode problem."""
     Solution().merge(nums1, m, nums2, n)
     assert nums1 == expected

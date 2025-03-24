@@ -13,6 +13,7 @@ from awesome_python_leetcode._129_sum_root_to_leaf_numbers import Solution, Tree
     ],
 )
 def test_func(root: List[int], expected: int):
+    """Tests the solution of a LeetCode problem."""
     root = TreeNode.build(root)
     sum_root_to_leaf_numbers = Solution().sumNumbers(root)
     assert sum_root_to_leaf_numbers == expected

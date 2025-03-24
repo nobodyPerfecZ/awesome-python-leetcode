@@ -12,5 +12,6 @@ from awesome_python_leetcode._137_single_number_II import Solution
     ],
 )
 def test_func(nums: List[int], expected: str):
+    """Tests the solution of a LeetCode problem."""
     num = Solution().singleNumber(nums)
     assert num == expected

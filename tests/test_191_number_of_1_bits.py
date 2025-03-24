@@ -12,5 +12,6 @@ from awesome_python_leetcode._191_number_of_1_bits import Solution
     ],
 )
 def test_func(n: int, expected: int):
+    """Tests the solution of a LeetCode problem."""
     c = Solution().hammingWeight(n)
     assert c == expected

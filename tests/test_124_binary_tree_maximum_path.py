@@ -13,6 +13,7 @@ from awesome_python_leetcode._124_binary_tree_maximum_path_sum import Solution, 
     ],
 )
 def test_func(root: List[int], expected: int):
+    """Tests the solution of a LeetCode problem."""
     root = TreeNode.build(root)
     max_path_sum = Solution().maxPathSum(root)
     assert max_path_sum == expected

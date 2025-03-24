@@ -2,6 +2,8 @@ from typing import List
 
 
 class Solution:
+    """Base class for all LeetCode Problems."""
+
     def singleNumber(self, nums: List[int]) -> int:
         """
         Given a non-empty array of integers nums, every element appears twice except for

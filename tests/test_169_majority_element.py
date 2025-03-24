@@ -13,5 +13,6 @@ from awesome_python_leetcode._169_majority_element import Solution
     ],
 )
 def test_func(nums: List[int], expected: int):
+    """Tests the solution of a LeetCode problem."""
     majority_element = Solution().majorityElement(nums)
     assert majority_element == expected

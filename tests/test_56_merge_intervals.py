@@ -13,5 +13,6 @@ from awesome_python_leetcode._56_merge_intervals import Solution
     ],
 )
 def test_func(intervals: List[List[int]], expected: List[List[int]]):
+    """Tests the solution of a LeetCode problem."""
     merged_intervals = Solution().merge(intervals)
     assert merged_intervals == expected

@@ -5,6 +5,7 @@ from awesome_python_leetcode._173_binary_search_tree_iterator import (
 
 
 def test_func():
+    """Tests the solution of a LeetCode problem."""
     root = TreeNode.build([7, 3, 15, None, None, 9, 20])
     iterator = BSTIterator(root)
     assert iterator.next() == 3

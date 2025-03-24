@@ -17,6 +17,7 @@ from awesome_python_leetcode._114_flatten_binary_tree_to_linked_list import (
     ],
 )
 def test_func(root: List[int], expected: List[int]):
+    """Tests the solution of a LeetCode problem."""
     root = TreeNode.build(root)
     solution = TreeNode.build(expected)
     Solution().flatten(root)

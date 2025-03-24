@@ -14,5 +14,6 @@ from awesome_python_leetcode._122_best_time_to_buy_and_sell_stock_II import Solu
     ],
 )
 def test_func(prices: List[int], expected: int):
+    """Tests the solution of a LeetCode problem."""
     max_profit = Solution().maxProfit(prices)
     assert max_profit == expected

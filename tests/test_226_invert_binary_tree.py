@@ -14,6 +14,7 @@ from awesome_python_leetcode._226_invert_binary_tree import Solution, TreeNode
     ],
 )
 def test_func(root: List[int], expected: List[int]):
+    """Tests the solution of a LeetCode problem."""
     root = TreeNode.build(root)
     solution = TreeNode.build(expected)
     actual = Solution().invertTree(root)

@@ -11,5 +11,6 @@ from awesome_python_leetcode._190_reverse_bits import Solution
     ],
 )
 def test_func(n: int, expected: int):
+    """Tests the solution of a LeetCode problem."""
     n_reversed = Solution().reverseBits(n)
     assert n_reversed == expected

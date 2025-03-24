@@ -12,5 +12,6 @@ from awesome_python_leetcode._201_bitwise_and_of_numbers_range import Solution
     ],
 )
 def test_func(left: int, right: int, expected: int):
+    """Tests the solution of a LeetCode problem."""
     range_bitwise_and = Solution().rangeBitwiseAnd(left, right)
     assert range_bitwise_and == expected

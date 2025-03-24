@@ -1,4 +1,6 @@
 class Solution:
+    """Base class for all LeetCode Problems."""
+
     def reverseBits(self, n: int) -> int:
         """Reverse bits of a given 32 bits unsigned integer."""
         res = 0

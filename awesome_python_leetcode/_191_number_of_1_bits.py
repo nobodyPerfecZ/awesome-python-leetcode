@@ -1,4 +1,6 @@
 class Solution:
+    """Base class for all LeetCode Problems."""
+
     def hammingWeight(self, n: int) -> int:
         """
         Given a positive integer n, write a function that returns the number of set bits

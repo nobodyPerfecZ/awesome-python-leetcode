@@ -11,5 +11,6 @@ from awesome_python_leetcode._67_add_binary import Solution
     ],
 )
 def test_func(a: str, b: str, expected: str):
+    """Tests the solution of a LeetCode problem."""
     c = Solution().addBinary(a, b)
     assert c == expected

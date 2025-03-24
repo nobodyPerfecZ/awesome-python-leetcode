@@ -16,5 +16,6 @@ from awesome_python_leetcode._71_simplify_path import Solution
     ],
 )
 def test_func(path: str, expected: str):
+    """Tests the solution of a LeetCode problem."""
     simplified_path = Solution().simplifyPath(path)
     assert simplified_path == expected

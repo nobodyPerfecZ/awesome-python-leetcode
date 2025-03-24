@@ -16,5 +16,6 @@ from awesome_python_leetcode._452_minimum_number_of_arrows_to_burst_balloons imp
     ],
 )
 def test_func(points: List[List[int]], expected: int):
+    """Tests the solution of a LeetCode problem."""
     min_arrow_shots = Solution().findMinArrowShots(points)
     assert min_arrow_shots == expected

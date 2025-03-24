@@ -17,5 +17,6 @@ from awesome_python_leetcode._49_group_anagrams import Solution
     ],
 )
 def test_func(strs: List[str], expected: List[List[str]]):
+    """Tests the solution of a LeetCode problem."""
     groups = Solution().groupAnagrams(strs)
     assert groups == expected

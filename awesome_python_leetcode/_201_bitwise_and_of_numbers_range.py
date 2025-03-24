@@ -1,4 +1,6 @@
 class Solution:
+    """Base class for all LeetCode Problems."""
+
     def rangeBitwiseAnd(self, left: int, right: int) -> int:
         """
         Given two integers left and right that represent the range [left, right],

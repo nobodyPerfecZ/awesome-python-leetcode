@@ -4,6 +4,8 @@ from awesome_python_leetcode.tree import TreeNode
 
 
 class Solution:
+    """Base class for all LeetCode Problems."""
+
     def averageOfLevels(self, root: Optional[TreeNode]) -> List[float]:
         """
         Given the root of a binary tree, return the average value of the nodes on each

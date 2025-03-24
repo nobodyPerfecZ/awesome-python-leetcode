@@ -13,5 +13,6 @@ from awesome_python_leetcode._80_remove_duplicates_from_sorted_array_II import S
     ],
 )
 def test_func(nums: List[int], expected: List[int]):
+    """Tests the solution of a LeetCode problem."""
     length = Solution().removeDuplicates(nums)
     assert nums[:length] == expected

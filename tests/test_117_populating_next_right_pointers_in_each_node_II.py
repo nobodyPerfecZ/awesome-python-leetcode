@@ -17,6 +17,7 @@ from awesome_python_leetcode._117_populating_next_right_pointers_in_each_node_II
     ],
 )
 def test_func(root: List[int], expected: List[int]):
+    """Tests the solution of a LeetCode problem."""
     root = TreeNode.build(root)
     connected_root = Solution().connect(root)
     print(root)

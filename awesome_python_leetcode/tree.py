@@ -4,11 +4,29 @@ from typing import List, Optional
 class TreeNode:
     """Binary tree node."""
 
-    def __init__(self, val=0, left=None, right=None, next=None):
+    def __init__(
+        self,
+        val: int = 0,
+        left: Optional["TreeNode"] = None,
+        right: Optional["TreeNode"] = None,
+    ):
         self.val = val
         self.left = left
         self.right = right
-        self.next = next
+
+    def __eq__(self, other: "TreeNode") -> bool:
+        if self is None and other is None:
+            return True
+        elif self is None:
+            return False
+        elif other is None:
+            return False
+        else:
+            return (
+                self.val == other.val
+                and self.left == other.left
+                and self.right == other.right
+            )
 
     @staticmethod
     def find(root: Optional["TreeNode"], val: int) -> Optional["TreeNode"]:
@@ -44,42 +62,3 @@ class TreeNode:
                 queue.append(node.right)
             i += 1
         return root
-
-    @staticmethod
-    def compare(t1: "TreeNode", t2: "TreeNode") -> bool:
-        """Compare two binary trees."""
-        if t1 is None and t2 is None:
-            return True
-        elif t1 is None:
-            return False
-        elif t2 is None:
-            return False
-        else:
-            return (
-                t1.val == t2.val
-                and TreeNode.compare(t1.left, t2.left)
-                and TreeNode.compare(t1.right, t2.right)
-            )
-
-    @staticmethod
-    def compare_next(root: "TreeNode", nexts: List[int]) -> bool:
-        """Compare the pointers to the next node."""
-        if root is None or nexts is None:
-            return True
-
-        cur = root
-        i = 0
-        while i < len(nexts):
-            if nexts[i] is None:
-                if cur is not None:
-                    return False
-                i += 1
-                if i < len(nexts):
-                    cur = TreeNode.find(root, nexts[i])
-                continue
-            else:
-                if cur.val != nexts[i]:
-                    return False
-                i += 1
-                cur = cur.next
-        return True

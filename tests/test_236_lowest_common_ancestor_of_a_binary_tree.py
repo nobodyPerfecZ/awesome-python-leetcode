@@ -23,4 +23,4 @@ def test_func(root: List[int], p: int, q: int, expected: List[int]):
     q = TreeNode.find(root, q)
     solution = TreeNode.find(root, expected)
     lowest_common_ancestor = Solution().lowestCommonAncestor(root, p, q)
-    assert TreeNode.compare(lowest_common_ancestor, solution) is True
+    assert lowest_common_ancestor == solution

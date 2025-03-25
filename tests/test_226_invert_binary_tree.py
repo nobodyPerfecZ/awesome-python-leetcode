@@ -18,4 +18,4 @@ def test_func(root: List[int], expected: List[int]):
     root = TreeNode.build(root)
     solution = TreeNode.build(expected)
     actual = Solution().invertTree(root)
-    assert TreeNode.compare(actual, solution) is True
+    assert actual == solution

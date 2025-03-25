@@ -15,7 +15,7 @@
             <img src="https://img.shields.io/badge/tests-passed-brightgreen">
         </a>
         <a>
-            <img src="https://img.shields.io/badge/coverage-97%25-brightgreen">
+            <img src="https://img.shields.io/badge/coverage-96%25-brightgreen">
         </a>
     </h1>
 </div>
@@ -25,7 +25,10 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 ## Leetcode Problems & Solutions 💻
 
 - [1 Two Sum](https://leetcode.com/problems/two-sum/description/)
+- [2 Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)
+- [19 Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)
 - [20 Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
+- [21 Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)
 - [26 Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
 - [27 Remove Element](https://leetcode.com/problems/remove-element/description/)
 - [45 Jump Game II](https://leetcode.com/problems/jump-game-ii/description/)
@@ -33,10 +36,14 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [55 Jump Game](https://leetcode.com/problems/jump-game/description/)
 - [56 Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)
 - [57 Insert Interval](https://leetcode.com/problems/insert-interval/description/)
+- [61 Rotate List](https://leetcode.com/problems/rotate-list/description/)
 - [67 Add Binary](https://leetcode.com/problems/add-binary/description/)
 - [71 Simplify Path](https://leetcode.com/problems/simplify-path/description/)
 - [80 Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/)
+- [82 Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)
+- [86 Partition List](https://leetcode.com/problems/partition-list/description/)
 - [88 Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)
+- [92 Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/description/)
 - [98 Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)
 - [100 Same Tree](https://leetcode.com/problems/same-tree/description/)
 - [101 Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/)
@@ -54,6 +61,11 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [125 Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)
 - [128 Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)
 - [129 Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)
+- [136 Single Number](https://leetcode.com/problems/single-number/description/)
+- [137 Single Number II](https://leetcode.com/problems/single-number-ii/description/)
+- [138 Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/)
+- [141 Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)
+- [146 LRU Cache](https://leetcode.com/problems/lru-cache/description/)
 - [150 Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
 - [155 Min Stack](https://leetcode.com/problems/min-stack/description/)
 - [169 Majority Element](https://leetcode.com/problems/majority-element/description/)

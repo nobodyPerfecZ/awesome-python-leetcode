@@ -21,4 +21,4 @@ def test_func(root: List[int], expected: List[int]):
     root = TreeNode.build(root)
     solution = TreeNode.build(expected)
     Solution().flatten(root)
-    assert TreeNode.compare(root, solution) is True
+    assert root == solution

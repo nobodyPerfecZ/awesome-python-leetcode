@@ -20,4 +20,4 @@ def test_func(preorder: List[int], inorder: List[int], expected: List[int]):
     """Tests the solution of a LeetCode problem."""
     solution = TreeNode.build(expected)
     actual = Solution().buildTree(preorder, inorder)
-    assert TreeNode.compare(actual, solution) is True
+    assert actual == solution

@@ -17,7 +17,6 @@ class TreeNode:
         self.next = next
 
     def __eq__(self, other: List[int]) -> bool:
-        """Compare the pointers to the next node."""
         if self is None or other is None:
             return True
 

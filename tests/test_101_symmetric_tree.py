@@ -16,4 +16,4 @@ def test_func(root: List[int], expected: bool):
     """Tests the solution of a LeetCode problem."""
     root = TreeNode.build(root)
     is_symmetric = Solution().isSymmetric(root)
-    assert is_symmetric == expected
+    assert is_symmetric is expected

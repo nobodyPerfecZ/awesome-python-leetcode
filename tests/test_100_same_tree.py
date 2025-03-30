@@ -18,4 +18,4 @@ def test_func(p: List[int], q: List[int], expected: bool):
     p = TreeNode.build(p)
     q = TreeNode.build(q)
     is_same_tree = Solution().isSameTree(p, q)
-    assert is_same_tree == expected
+    assert is_same_tree is expected

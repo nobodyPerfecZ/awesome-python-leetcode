@@ -15,4 +15,4 @@ from awesome_python_leetcode._20_valid_parentheses import Solution
 def test_func(s: str, expected: bool):
     """Tests the solution of a LeetCode problem."""
     is_valid = Solution().isValid(s)
-    assert is_valid == expected
+    assert is_valid is expected

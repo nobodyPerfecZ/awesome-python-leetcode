@@ -18,4 +18,4 @@ def test_func(root: List[int], expected: bool):
     """Tests the solution of a LeetCode problem."""
     root = TreeNode.build(root)
     is_valid_bst = Solution().isValidBST(root)
-    assert is_valid_bst == expected
+    assert is_valid_bst is expected

@@ -15,4 +15,4 @@ from awesome_python_leetcode._207_course_schedule import Solution
 def test_func(numCourses: int, prerequisites: List[List[int]], expected: bool):
     """Tests the solution of a LeetCode problem."""
     can_finish = Solution().canFinish(numCourses, prerequisites)
-    assert can_finish == expected
+    assert can_finish is expected

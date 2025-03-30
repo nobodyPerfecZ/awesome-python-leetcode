@@ -15,4 +15,4 @@ from awesome_python_leetcode._55_jump_game import Solution
 def test_func(nums: List[int], expected: bool):
     """Tests the solution of a LeetCode problem."""
     can_jump = Solution().canJump(nums)
-    assert can_jump == expected
+    assert can_jump is expected

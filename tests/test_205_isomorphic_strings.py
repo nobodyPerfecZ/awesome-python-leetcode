@@ -10,4 +10,4 @@ from awesome_python_leetcode._205_isomorphic_strings import Solution
 def test_func(s: str, t: str, expected: bool):
     """Tests the solution of a LeetCode problem."""
     is_isomorphic = Solution().isIsomorphic(s, t)
-    assert is_isomorphic == expected
+    assert is_isomorphic is expected

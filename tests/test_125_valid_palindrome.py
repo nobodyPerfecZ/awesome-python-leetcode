@@ -14,4 +14,4 @@ from awesome_python_leetcode._125_valid_palindrome import Solution
 def test_func(s: str, expected: bool):
     """Tests the solution of a LeetCode problem."""
     max_profit = Solution().isPalindrome(s)
-    assert max_profit == expected
+    assert max_profit is expected

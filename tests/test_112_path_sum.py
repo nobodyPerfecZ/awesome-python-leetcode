@@ -17,4 +17,4 @@ def test_func(root: List[int], targetSum: int, expected: bool):
     """Tests the solution of a LeetCode problem."""
     root = TreeNode.build(root)
     has_path_sum = Solution().hasPathSum(root, targetSum)
-    assert has_path_sum == expected
+    assert has_path_sum is expected

@@ -13,7 +13,7 @@ from awesome_python_leetcode._210_course_schedule_II import Solution
         (1, [], [0]),
     ],
 )
-def test_func(numCourses: int, prerequisites: List[List[int]], expected: bool):
+def test_func(numCourses: int, prerequisites: List[List[int]], expected: List[int]):
     """Tests the solution of a LeetCode problem."""
     order = Solution().findOrder(numCourses, prerequisites)
     assert order == expected

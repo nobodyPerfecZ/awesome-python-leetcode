@@ -16,4 +16,4 @@ from awesome_python_leetcode._219_contains_duplicate_II import Solution
 def test_func(nums: List[int], k: int, expected: bool):
     """Tests the solution of a LeetCode problem."""
     contains_nearby_duplicate = Solution().containsNearbyDuplicate(nums, k)
-    assert contains_nearby_duplicate == expected
+    assert contains_nearby_duplicate is expected

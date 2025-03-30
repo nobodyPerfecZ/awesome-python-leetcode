@@ -17,4 +17,4 @@ def test_func(head: List[int], pos: int, expected: bool):
     """Tests the solution of a LeetCode problem."""
     head = ListNode.build(head, pos)
     has_cycle = Solution().hasCycle(head)
-    assert has_cycle == expected
+    assert has_cycle is expected

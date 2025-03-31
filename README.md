@@ -15,7 +15,7 @@
             <img src="https://img.shields.io/badge/tests-passed-brightgreen">
         </a>
         <a>
-            <img src="https://img.shields.io/badge/coverage-96%25-brightgreen">
+            <img src="https://img.shields.io/badge/coverage-97%25-brightgreen">
         </a>
     </h1>
 </div>
@@ -26,6 +26,7 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 
 - [1 Two Sum](https://leetcode.com/problems/two-sum/description/)
 - [2 Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)
+- [3 Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
 - [6 Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/description/)
 - [9 Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)
 - [11 Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)
@@ -103,6 +104,7 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [202 Happy Number](https://leetcode.com/problems/happy-number/description/)
 - [205 Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)
 - [207 Course Schedule](https://leetcode.com/problems/course-schedule/description/)
+- [209 Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum)
 - [210 Course Schedule](https://leetcode.com/problems/course-schedule-ii/description/)
 - [219 Contains Duplicates II](https://leetcode.com/problems/contains-duplicate-ii/description/)
 - [222 Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/description/)

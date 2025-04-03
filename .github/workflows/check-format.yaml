@@ -30,5 +30,4 @@ jobs:
           # stop the build if there are Python syntax errors or undefined names
           flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
           # exit-zero treats all errors as warnings. Black has 88 max-line-length
-          flake8 . --count --exit-zero --max-complexity=10 --max-line-length=88 --statistics --ignore=E121,E123,E126,E203,E226,E24,E704,W503,W504
-
+          flake8 . --count --extend-ignore=E203,C901 --exit-zero --max-complexity=10 --max-line-length=88 --statistics

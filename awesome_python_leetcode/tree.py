@@ -1,6 +1,85 @@
 from typing import List, Optional
 
 
+class QuadTreeNode:
+    """Quad tree node."""
+
+    def __init__(
+        self,
+        val: int = 0,
+        isLeaf: bool = False,
+        topLeft: Optional["QuadTreeNode"] = None,
+        topRight: Optional["QuadTreeNode"] = None,
+        bottomLeft: Optional["QuadTreeNode"] = None,
+        bottomRight: Optional["QuadTreeNode"] = None,
+    ):
+        self.val = val
+        self.isLeaf = isLeaf
+        self.topLeft = topLeft
+        self.topRight = topRight
+        self.bottomLeft = bottomLeft
+        self.bottomRight = bottomRight
+
+    def __eq__(self, other: "QuadTreeNode") -> bool:
+        if self is None and other is None:
+            return True
+        elif self is None:
+            return False
+        elif other is None:
+            return False
+        else:
+            return (
+                self.val == other.val
+                and self.isLeaf == other.isLeaf
+                and self.topLeft == other.topLeft
+                and self.topRight == other.topRight
+                and self.bottomLeft == other.bottomLeft
+                and self.bottomRight == other.bottomRight
+            )
+
+    @staticmethod
+    def build(levelorder: List[List[int]]) -> "QuadTreeNode":
+        """Build a binary tree from levelorder traversal."""
+        if not levelorder:
+            return None
+
+        node_data = levelorder.pop(0)
+        if node_data is None:
+            return None
+
+        isLeaf, val = node_data
+        head = QuadTreeNode(val, isLeaf)
+        queue = [(head, isLeaf)]
+
+        while queue and levelorder:
+            node, isLeaf = queue.pop(0)
+
+            node_data = levelorder.pop(0)
+            if node_data:
+                isLeaf, val = node_data
+                node.topLeft = QuadTreeNode(val, isLeaf)
+                queue.append((node.topLeft, isLeaf))
+
+            node_data = levelorder.pop(0)
+            if node_data:
+                isLeaf, val = node_data
+                node.topRight = QuadTreeNode(val, isLeaf)
+                queue.append((node.topRight, isLeaf))
+
+            node_data = levelorder.pop(0)
+            if node_data:
+                isLeaf, val = node_data
+                node.bottomLeft = QuadTreeNode(val, isLeaf)
+                queue.append((node.bottomLeft, isLeaf))
+
+            node_data = levelorder.pop(0)
+            if node_data:
+                isLeaf, val = node_data
+                node.bottomRight = QuadTreeNode(val, isLeaf)
+                queue.append((node.bottomRight, isLeaf))
+        return head
+
+
 class TreeNode:
     """Binary tree node."""
 

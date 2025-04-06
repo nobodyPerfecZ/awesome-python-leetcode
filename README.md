@@ -15,7 +15,7 @@
             <img src="https://img.shields.io/badge/tests-passed-brightgreen">
         </a>
         <a>
-            <img src="https://img.shields.io/badge/coverage-97%25-brightgreen">
+            <img src="https://img.shields.io/badge/coverage-98%25-brightgreen">
         </a>
     </h1>
 </div>
@@ -45,6 +45,7 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [27 Remove Element](https://leetcode.com/problems/remove-element/description/)
 - [28 Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/)
 - [30 Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/)
+- [35 Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)
 - [36 Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)
 - [39 Combination Sum](https://leetcode.com/problems/combination-sum/description/)
 - [42 Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/)
@@ -67,6 +68,7 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [69 Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)
 - [71 Simplify Path](https://leetcode.com/problems/simplify-path/description/)
 - [73 Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)
+- [74 Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)
 - [76 Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)
 - [77 Combinations](https://leetcode.com/problems/combinations/description/)
 - [79 Word Search](https://leetcode.com/problems/word-search/description/)

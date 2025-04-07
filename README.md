@@ -56,6 +56,7 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [50 Pow(x_n)](https://leetcode.com/problems/powx-n/description/)
 - [51 N-Queens](https://leetcode.com/problems/n-queens/description/)
 - [52 N-Queens II](https://leetcode.com/problems/n-queens-ii/description/)
+- [53 Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
 - [54 Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)
 - [55 Jump Game](https://leetcode.com/problems/jump-game/description/)
 - [58 Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/)
@@ -151,6 +152,7 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [530 Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/)
 - [637 Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/description/)
 - [909 Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/description/)
+- [918 Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/description/)
 
 ## Development 🔧
 

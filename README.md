@@ -15,7 +15,7 @@
             <img src="https://img.shields.io/badge/tests-passed-brightgreen">
         </a>
         <a>
-            <img src="https://img.shields.io/badge/coverage-97%25-brightgreen">
+            <img src="https://img.shields.io/badge/coverage-98%25-brightgreen">
         </a>
     </h1>
 </div>
@@ -70,6 +70,7 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [67 Add Binary](https://leetcode.com/problems/add-binary/description/)
 - [68 Text Justification](https://leetcode.com/problems/text-justification/description/)
 - [69 Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)
+- [70 Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)
 - [71 Simplify Path](https://leetcode.com/problems/simplify-path/description/)
 - [73 Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)
 - [74 Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)
@@ -107,6 +108,7 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [136 Single Number](https://leetcode.com/problems/single-number/description/)
 - [137 Single Number II](https://leetcode.com/problems/single-number-ii/description/)
 - [138 Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/)
+- [139 Word Break](https://leetcode.com/problems/word-break/description/)
 - [141 Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)
 - [146 LRU Cache](https://leetcode.com/problems/lru-cache/description/)
 - [148 Sort List](https://leetcode.com/problems/sort-list/description/)
@@ -123,6 +125,7 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [189 Rotate Array](https://leetcode.com/problems/rotate-array/description/)
 - [190 Reverse Bits](https://leetcode.com/problems/reverse-bits/description/)
 - [191 Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/)
+- [198 House Robber](https://leetcode.com/problems/house-robber/description/)
 - [199 Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)
 - [200 Number of Islands](https://leetcode.com/problems/number-of-islands/description/)
 - [201 Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/description/)
@@ -147,6 +150,8 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [274 H-Index](https://leetcode.com/problems/h-index/description/)
 - [289 Game of Life](https://leetcode.com/problems/game-of-life/description/)
 - [290 Word Pattern](https://leetcode.com/problems/word-pattern/description/)
+- [300 Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)
+- [322 Coin Change](https://leetcode.com/problems/coin-change/description/)
 - [380 Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)
 - [383 Ransom Note](https://leetcode.com/problems/ransom-note/description/)
 - [392 Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)

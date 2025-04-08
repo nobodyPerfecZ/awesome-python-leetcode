@@ -15,7 +15,7 @@
             <img src="https://img.shields.io/badge/tests-passed-brightgreen">
         </a>
         <a>
-            <img src="https://img.shields.io/badge/coverage-98%25-brightgreen">
+            <img src="https://img.shields.io/badge/coverage-97%25-brightgreen">
         </a>
     </h1>
 </div>
@@ -27,6 +27,7 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [1 Two Sum](https://leetcode.com/problems/two-sum/description/)
 - [2 Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)
 - [3 Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
+- [4 Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)
 - [6 Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/description/)
 - [9 Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)
 - [11 Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)
@@ -45,6 +46,8 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [27 Remove Element](https://leetcode.com/problems/remove-element/description/)
 - [28 Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/)
 - [30 Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/)
+- [33 Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
+- [34 Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)
 - [35 Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)
 - [36 Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)
 - [39 Combination Sum](https://leetcode.com/problems/combination-sum/description/)
@@ -110,7 +113,9 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [149 Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/description/)
 - [150 Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
 - [151 Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)
+- [153 Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
 - [155 Min Stack](https://leetcode.com/problems/min-stack/description/)
+- [162 Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)
 - [167 Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
 - [169 Majority Element](https://leetcode.com/problems/majority-element/description/)
 - [172 Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/description/)

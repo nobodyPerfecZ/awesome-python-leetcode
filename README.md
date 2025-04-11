@@ -22,6 +22,41 @@
 
 This repository contains awesome LeetCode problems and solutions written in Python to prepare for coding interviews.
 
+## Leetcode Study Plans 📚
+
+### Introduction To
+
+- [Introduction to Pandas](https://leetcode.com/studyplan/introduction-to-pandas/)
+
+### 30 Days Challenge
+
+- [30 Days of Pandas](https://leetcode.com/studyplan/30-days-of-pandas/)
+- [30 Days of JavaScript](https://leetcode.com/studyplan/30-days-of-javascript/)
+
+### Cracking Coding Interview
+
+- [Top Interview 150](https://leetcode.com/studyplan/top-interview-150/)
+- [LeetCode 75](https://leetcode.com/studyplan/leetcode-75/)
+- [Top 100 Liked](https://leetcode.com/studyplan/top-100-liked/)
+- [SQL 50](https://leetcode.com/studyplan/top-sql-50/)
+- [Premium Algo 100](https://leetcode.com/studyplan/premium-algo-100/)
+- [Advanced SQL 50](https://leetcode.com/studyplan/premium-sql-50/)
+
+### Sprint Interview
+
+- [Amazon Spring '23 High Frequency](https://leetcode.com/studyplan/amazon-spring-23-high-frequency/)
+- [Google Spring '23 High Frequency](https://leetcode.com/studyplan/google-spring-23-high-frequency/)
+- [TikTok Spring '23 High Frequency](https://leetcode.com/studyplan/tiktok-spring-23-high-frequency/)
+- [Apple Spring '23 High Frequency](https://leetcode.com/studyplan/apple-spring-23-high-frequency/)
+
+### In-Depth Topics
+
+- [Programming Skills](https://leetcode.com/studyplan/programming-skills/)
+- [Dynamic Programming](https://leetcode.com/studyplan/dynamic-programming/)
+- [Dynamic Programming Grandmaster](https://leetcode.com/studyplan/dynamic-programming-grandmaster/)
+- [Graph Theory](https://leetcode.com/studyplan/graph-theory/)
+- [Binary Search](https://leetcode.com/studyplan/binary-search/)
+
 ## Leetcode Problems & Solutions 💻
 
 - [1 Two Sum](https://leetcode.com/problems/two-sum/description/)
@@ -99,6 +134,7 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [112 Path Sum](https://leetcode.com/problems/path-sum/description/)
 - [114 Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)
 - [117 Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/)
+- [118 Pascals Triangle](https://leetcode.com/problems/pascals-triangle/description/)
 - [120 Triangle](https://leetcode.com/problems/triangle/description/)
 - [121 Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
 - [122 Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
@@ -172,10 +208,15 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [433 Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/description/)
 - [452 Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)
 - [502 IPO](https://leetcode.com/problems/ipo/description/)
+- [509 Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)
 - [530 Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/)
 - [637 Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/description/)
+- [740 Delete and Earn](https://leetcode.com/problems/delete-and-earn/description/)
+- [746 Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/)
 - [909 Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/description/)
 - [918 Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/description/)
+- [931 Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/description/)
+- [1137 N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/description/)
 
 ## Development 🔧
 

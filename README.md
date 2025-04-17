@@ -120,6 +120,7 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [82 Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)
 - [86 Partition List](https://leetcode.com/problems/partition-list/description/)
 - [88 Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)
+- [91 Decode Ways](https://leetcode.com/problems/decode-ways/description/)
 - [92 Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/description/)
 - [97 Interleaving String](https://leetcode.com/problems/interleaving-string/description/)
 - [98 Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)
@@ -202,6 +203,7 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [300 Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)
 - [322 Coin Change](https://leetcode.com/problems/coin-change/description/)
 - [373 Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/)
+- [377 Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/description/)
 - [380 Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)
 - [383 Ransom Note](https://leetcode.com/problems/ransom-note/description/)
 - [392 Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)
@@ -222,10 +224,12 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [909 Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/description/)
 - [918 Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/description/)
 - [931 Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/description/)
+- [983 Minimum Cost for Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/description/)
 - [1137 N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/description/)
 - [1143 Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/description/)
 - [1534 Count Good Triplets](https://leetcode.com/problems/count-good-triplets/description)
 - [1922 Count Good Numbers](https://leetcode.com/problems/count-good-numbers/description/)
+- [2466 Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/description/)
 
 ## Development 🔧
 

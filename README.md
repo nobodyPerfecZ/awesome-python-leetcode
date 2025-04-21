@@ -211,6 +211,7 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [427 Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/description/)
 - [433 Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/description/)
 - [452 Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)
+- [474 Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/description/)
 - [502 IPO](https://leetcode.com/problems/ipo/description/)
 - [509 Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)
 - [516 Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/)
@@ -221,6 +222,7 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [712 Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/description/)
 - [740 Delete and Earn](https://leetcode.com/problems/delete-and-earn/description/)
 - [746 Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/)
+- [790 Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/description/)
 - [909 Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/description/)
 - [918 Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/description/)
 - [931 Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/description/)
@@ -229,6 +231,7 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [1143 Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/description/)
 - [1534 Count Good Triplets](https://leetcode.com/problems/count-good-triplets/description)
 - [1922 Count Good Numbers](https://leetcode.com/problems/count-good-numbers/description/)
+- [2140 Solving Questions With Brainpower](https://leetcode.com/problems/solving-questions-with-brainpower/description/)
 - [2466 Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/description/)
 
 ## Development 🔧

@@ -122,6 +122,8 @@ This repository contains awesome LeetCode problems and solutions written in Pyth
 - [88 Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)
 - [91 Decode Ways](https://leetcode.com/problems/decode-ways/description/)
 - [92 Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/description/)
+- [95 Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/description/)
+- [96 Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/description/)
 - [97 Interleaving String](https://leetcode.com/problems/interleaving-string/description/)
 - [98 Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)
 - [100 Same Tree](https://leetcode.com/problems/same-tree/description/)

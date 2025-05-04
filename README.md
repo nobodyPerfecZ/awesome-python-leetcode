@@ -2,6 +2,10 @@
     <h1>
         💡 Awesome Python Leetcode 
         <br>
+        <span style="font-size: large">
+            Awesome Leetcode problems and solutions written in Python!
+        </span>
+        <br>
         <a href="https://awesome.re">
             <img src="https://awesome.re/badge.svg">
         </a>
@@ -19,8 +23,6 @@
         </a>
     </h1>
 </div>
-
-This repository contains awesome LeetCode problems and solutions written in Python to prepare for coding interviews.
 
 ## Leetcode Study Plans 📚
 

@@ -88,6 +88,7 @@
 - [34 Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)
 - [35 Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)
 - [36 Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)
+- [37 Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/)
 - [39 Combination Sum](https://leetcode.com/problems/combination-sum/description/)
 - [42 Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/)
 - [45 Jump Game II](https://leetcode.com/problems/jump-game-ii/description/)

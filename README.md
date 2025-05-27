@@ -1,7 +1,7 @@
 <div align="middle">
     <h1>
         <p>
-            <img src="docs/images/logo.png", alt="Logo", width="300" height="300" />
+            <img src="docs/images/logo_dark.png", alt="Logo", width="300" height="300" />
         </p>
         💡 Awesome Python Leetcode 
         <br>

@@ -100,6 +100,7 @@
 - [42 Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/)
 - [45 Jump Game II](https://leetcode.com/problems/jump-game-ii/description/)
 - [46 Permutations](https://leetcode.com/problems/permutations/description/)
+- [47 Permutations II](https://leetcode.com/problems/permutations-ii/description/)
 - [48 Rotate Image](https://leetcode.com/problems/rotate-image/description/)
 - [49 Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)
 - [50 Pow(x_n)](https://leetcode.com/problems/powx-n/description/)

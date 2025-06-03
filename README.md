@@ -262,6 +262,7 @@
 - [1964 Find the Longest Valid Obstacle Course at Each Position](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/description/)
 - [2140 Solving Questions With Brainpower](https://leetcode.com/problems/solving-questions-with-brainpower/description/)
 - [2466 Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/description/)
+- [2523 Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/description/)
 - [2799 Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/description/)
 - [3392 Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/description/)
 

@@ -190,6 +190,7 @@
 - [200 Number of Islands](https://leetcode.com/problems/number-of-islands/description/)
 - [201 Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/description/)
 - [202 Happy Number](https://leetcode.com/problems/happy-number/description/)
+- [204 Count Primes](https://leetcode.com/problems/count-primes/description/)
 - [205 Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)
 - [207 Course Schedule](https://leetcode.com/problems/course-schedule/description/)
 - [208 Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)

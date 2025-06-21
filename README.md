@@ -258,6 +258,7 @@
 - [1218 Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/description/)
 - [1312 Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/description/)
 - [1534 Count Good Triplets](https://leetcode.com/problems/count-good-triplets/description/)
+- [1679 Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/description/)
 - [1732 Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/description/)
 - [1991 Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/description/)
 - [1922 Count Good Numbers](https://leetcode.com/problems/count-good-numbers/description/)

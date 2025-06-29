@@ -1,4 +1,5 @@
 from typing import List
+
 import pytest
 
 from awesome_python_leetcode._209_minimum_size_subarray_sum import Solution

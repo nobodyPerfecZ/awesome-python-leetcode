@@ -1,5 +1,5 @@
+from heapq import heapify, heappop, heappush
 from typing import List
-from heapq import heappop, heappush, heapify
 
 
 class Solution:
@@ -32,10 +32,9 @@ class Solution:
         The answer is guaranteed to fit in a 32-bit signed integer.
         """
         maxHeap = []
-        minHeap = [(c, p) for c, p in zip(capital, profits)]
+        minHeap = [(c, p) for c, p in zip(capital, profits, strict=True)]
         heapify(minHeap)
-        for t in range(k):
-
+        for _ in range(k):
             while minHeap and minHeap[0][0] <= w:
                 c, p = heappop(minHeap)
                 heappush(maxHeap, -p)

@@ -2,7 +2,7 @@ from typing import List
 
 import pytest
 
-from awesome_python_leetcode._427_construct_quad_tree import Solution, QuadTreeNode
+from awesome_python_leetcode._427_construct_quad_tree import QuadTreeNode, Solution
 
 
 @pytest.mark.parametrize(

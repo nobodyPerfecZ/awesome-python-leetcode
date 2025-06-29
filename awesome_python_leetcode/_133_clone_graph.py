@@ -1,5 +1,5 @@
 import collections
-from typing import List, Optional, Dict
+from typing import Dict, List, Optional
 
 
 class Node:

@@ -29,9 +29,9 @@ class Solution:
         left, cur = dummy, head
         n = self.length(head)
 
-        for i in range(n // k):
+        for _ in range(n // k):
             prev = None
-            for i in range(k):
+            for _ in range(k):
                 tmp = cur.next
                 cur.next = prev
                 prev, cur = cur, tmp

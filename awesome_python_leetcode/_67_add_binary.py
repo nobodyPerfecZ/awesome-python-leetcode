@@ -7,7 +7,7 @@ class Solution:
         max_length = max(len(a), len(b))
         a = ("0" * (max_length - len(a))) + a
         b = ("0" * (max_length - len(b))) + b
-        for a_, b_ in zip(reversed(a), reversed(b)):
+        for a_, b_ in zip(reversed(a), reversed(b), strict=True):
             if a_ == "0" and b_ == "0" and overhead == "0":
                 result = "0" + result
                 overhead = "0"

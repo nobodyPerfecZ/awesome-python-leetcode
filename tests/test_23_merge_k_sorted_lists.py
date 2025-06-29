@@ -2,7 +2,7 @@ from typing import List
 
 import pytest
 
-from awesome_python_leetcode._23_merge_k_sorted_lists import Solution, ListNode
+from awesome_python_leetcode._23_merge_k_sorted_lists import ListNode, Solution
 
 
 @pytest.mark.parametrize(

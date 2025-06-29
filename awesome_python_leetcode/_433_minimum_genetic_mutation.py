@@ -6,7 +6,7 @@ class Solution:
 
     def hammingweight(self, gene1: str, gene2: str) -> int:
         weight = 0
-        for s1, s2 in zip(gene1, gene2):
+        for s1, s2 in zip(gene1, gene2, strict=True):
             if s1 != s2:
                 weight += 1
         return weight

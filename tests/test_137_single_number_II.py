@@ -1,4 +1,5 @@
 from typing import List
+
 import pytest
 
 from awesome_python_leetcode._137_single_number_II import Solution

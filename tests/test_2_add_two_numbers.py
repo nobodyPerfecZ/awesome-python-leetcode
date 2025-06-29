@@ -2,7 +2,7 @@ from typing import List
 
 import pytest
 
-from awesome_python_leetcode._2_add_two_numbers import Solution, ListNode
+from awesome_python_leetcode._2_add_two_numbers import ListNode, Solution
 
 
 @pytest.mark.parametrize(

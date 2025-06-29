@@ -2,7 +2,7 @@ from typing import List
 
 import pytest
 
-from awesome_python_leetcode._141_linked_list_cycle import Solution, ListNode
+from awesome_python_leetcode._141_linked_list_cycle import ListNode, Solution
 
 
 @pytest.mark.parametrize(

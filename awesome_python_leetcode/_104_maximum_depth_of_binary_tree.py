@@ -1,6 +1,5 @@
 from typing import Optional
 
-
 from awesome_python_leetcode.tree import TreeNode
 
 

@@ -17,7 +17,7 @@ class Solution:
         if len(pattern) != len(s):
             return False
         policy, reverse_policy = {}, {}
-        for pattern_, s_ in zip(pattern, s):
+        for pattern_, s_ in zip(pattern, s, strict=True):
             if pattern_ in policy and policy[pattern_] != s_:
                 return False
             if s_ in reverse_policy and reverse_policy[s_] != pattern_:

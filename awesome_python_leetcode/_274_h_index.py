@@ -18,7 +18,7 @@ class Solution:
         # Sort citations by number of papers
         n = len(citations)
         count = collections.defaultdict(int)
-        for i, val in enumerate(citations):
+        for val in citations:
             index = min(val, n)
             count[index] += 1
 

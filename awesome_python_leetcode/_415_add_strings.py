@@ -131,7 +131,7 @@ class Solution:
         # Loop through the digits from right to left
         result = ""
         remaining = "0"
-        for n1, n2 in zip(reversed(smallest), reversed(largest)):
+        for n1, n2 in zip(reversed(smallest), reversed(largest), strict=True):
             # Apply the addition rules including remaining
             add, next_remaining1 = RULES[(n1, n2)]
             add, next_remaining2 = RULES[(add, remaining)]

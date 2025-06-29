@@ -13,7 +13,7 @@ class Solution:
             return False
 
         counter_s, counter_t = {}, {}
-        for s_, t_ in zip(s, t):
+        for s_, t_ in zip(s, t, strict=True):
             if s_ not in counter_s:
                 counter_s[s_] = 1
             else:
@@ -24,7 +24,7 @@ class Solution:
             else:
                 counter_t[t_] += 1
 
-        for k_s, k_t in zip(counter_s, counter_t):
+        for k_s, k_t in zip(counter_s, counter_t, strict=True):
             if k_s not in counter_t:
                 return False
             if k_t not in counter_s:

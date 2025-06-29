@@ -26,4 +26,6 @@ def test_func(n: int, expected: List[List[int]]):
     """Tests the solution of a LeetCode problem."""
     expected = [TreeNode.build(tree) for tree in expected]
     bsts = Solution().generateTrees(n)
-    assert all(actual == expected for actual, expected in zip(bsts, expected))
+    assert all(
+        actual == expected for actual, expected in zip(bsts, expected, strict=True)
+    )

@@ -15,7 +15,7 @@ class Solution:
         if len(s) != len(t):
             return False
         policy, reverse_policy = {}, {}
-        for s_, t_ in zip(s, t):
+        for s_, t_ in zip(s, t, strict=True):
             if s_ in policy and policy[s_] != t_:
                 return False
             if t_ in reverse_policy and reverse_policy[t_] != s_:

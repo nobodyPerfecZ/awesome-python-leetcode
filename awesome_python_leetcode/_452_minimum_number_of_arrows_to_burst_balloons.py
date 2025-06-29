@@ -22,15 +22,15 @@ class Solution:
         burst all balloons.
         """
         points = sorted(points, key=lambda p: p[0])
-        l, r = points[0][0], points[0][1]
+        left, right = points[0][0], points[0][1]
         i, output = 1, 1
         while i < len(points):
-            c_l, c_r = points[i][0], points[i][1]
-            new_l, new_r = max(l, c_l), min(r, c_r)
-            if new_l <= new_r:
-                l, r = new_l, new_r
+            c_left, c_right = points[i][0], points[i][1]
+            new_left, new_right = max(left, c_left), min(right, c_right)
+            if new_left <= new_right:
+                left, right = new_left, new_right
             else:
-                l, r = c_l, c_r
+                left, right = c_left, c_right
                 output += 1
             i += 1
         return output

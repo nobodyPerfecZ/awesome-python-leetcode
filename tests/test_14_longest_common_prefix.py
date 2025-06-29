@@ -1,4 +1,5 @@
 from typing import List
+
 import pytest
 
 from awesome_python_leetcode._14_longest_common_prefix import Solution

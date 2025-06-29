@@ -1,4 +1,5 @@
 from typing import List
+
 import pytest
 
 from awesome_python_leetcode._128_longest_consecutive_sequence import Solution

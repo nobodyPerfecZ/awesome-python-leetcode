@@ -1,5 +1,7 @@
 from typing import List
+
 import pytest
+
 from awesome_python_leetcode._212_word_search_II import Solution
 
 

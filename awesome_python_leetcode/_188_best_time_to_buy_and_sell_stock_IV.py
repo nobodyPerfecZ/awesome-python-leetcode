@@ -17,7 +17,7 @@ class Solution:
         """
         dp = [0 for _ in range(len(prices))]
 
-        for t in range(1, k + 1):
+        for _ in range(1, k + 1):
             pos = -prices[0]
             profit = 0
             for i in range(1, len(prices)):

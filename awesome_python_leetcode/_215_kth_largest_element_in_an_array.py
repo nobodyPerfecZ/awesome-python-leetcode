@@ -1,5 +1,5 @@
-from typing import List
 from heapq import heapify, heappop
+from typing import List
 
 
 class Solution:
@@ -17,6 +17,6 @@ class Solution:
         """
         nums = [-n for n in nums]
         heapify(nums)
-        for t in range(k):
+        for _ in range(k):
             val = heappop(nums)
         return -val

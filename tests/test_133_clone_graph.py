@@ -2,7 +2,7 @@ from typing import List
 
 import pytest
 
-from awesome_python_leetcode._133_clone_graph import Solution, Node
+from awesome_python_leetcode._133_clone_graph import Node, Solution
 
 
 @pytest.mark.parametrize(

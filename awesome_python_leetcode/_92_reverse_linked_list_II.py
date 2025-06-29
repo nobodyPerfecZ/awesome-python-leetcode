@@ -19,11 +19,11 @@ class Solution:
         """
         dummy = ListNode(0, head)
         prev_left, cur = dummy, head
-        for i in range(left - 1):
+        for _ in range(left - 1):
             prev_left, cur = cur, cur.next
 
         prev_right = None
-        for i in range(right - left + 1):
+        for _ in range(right - left + 1):
             tmp = cur.next
             cur.next = prev_right
             prev_right, cur = cur, tmp

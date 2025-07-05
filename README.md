@@ -238,6 +238,7 @@
 - [516 Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/)
 - [518 Coin Change II](https://leetcode.com/problems/coin-change-ii/description/)
 - [530 Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/)
+- [594 Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/description/)
 - [637 Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/description/)
 - [643 Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/description/)
 - [646 Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/description/)

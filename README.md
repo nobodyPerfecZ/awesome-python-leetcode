@@ -239,6 +239,7 @@
 - [518 Coin Change II](https://leetcode.com/problems/coin-change-ii/description/)
 - [530 Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/)
 - [637 Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/description/)
+- [643 Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/description/)
 - [646 Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/description/)
 - [673 Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/description/)
 - [712 Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/description/)

@@ -226,6 +226,7 @@
 - [380 Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)
 - [383 Ransom Note](https://leetcode.com/problems/ransom-note/description/)
 - [392 Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)
+- [394 Decode String](https://leetcode.com/problems/decode-string/description/)
 - [399 Evaluate Division](https://leetcode.com/problems/evaluate-division/description/)
 - [412 Fizz Buzz](https://leetcode.com/problems/fizz-buzz/description/)
 - [415 Add Strings](https://leetcode.com/problems/add-strings/description/)

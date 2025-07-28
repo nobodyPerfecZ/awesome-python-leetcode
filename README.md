@@ -243,6 +243,7 @@
 - [637 Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/description/)
 - [643 Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/description/)
 - [646 Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/description/)
+- [649 Dota2 Senate](https://leetcode.com/problems/dota2-senate/description/)
 - [673 Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/description/)
 - [712 Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/description/)
 - [714 Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/)

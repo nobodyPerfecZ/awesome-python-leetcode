@@ -255,6 +255,7 @@
 - [909 Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/description/)
 - [918 Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/description/)
 - [931 Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/description/)
+- [933 Number of Recent Cells](https://leetcode.com/problems/number-of-recent-calls/description/)
 - [983 Minimum Cost for Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/description/)
 - [1027 Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/description/)
 - [1035 Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/description/)

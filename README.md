@@ -208,6 +208,7 @@
 - [227 Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/description/)
 - [228 Summary Ranges](https://leetcode.com/problems/summary-ranges/description/)
 - [230 Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)
+- [231 Power of Two](https://leetcode.com/problems/power-of-two/description/)
 - [236 Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)
 - [238 Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)
 - [242 Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)

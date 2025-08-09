@@ -229,6 +229,7 @@
 - [377 Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/description/)
 - [380 Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)
 - [383 Ransom Note](https://leetcode.com/problems/ransom-note/description/)
+- [389 Find the Difference](https://leetcode.com/problems/find-the-difference/description/)
 - [392 Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)
 - [394 Decode String](https://leetcode.com/problems/decode-string/description/)
 - [399 Evaluate Division](https://leetcode.com/problems/evaluate-division/description/)

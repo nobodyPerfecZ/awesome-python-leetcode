@@ -223,6 +223,7 @@
 - [322 Coin Change](https://leetcode.com/problems/coin-change/description/)
 - [337 House Robber III](https://leetcode.com/problems/house-robber-iii/description/)
 - [338 Counting Bits](https://leetcode.com/problems/counting-bits/description/)
+- [342 Power of Four](https://leetcode.com/problems/power-of-four/description/)
 - [354 Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description/)
 - [373 Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/)
 - [377 Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/description/)

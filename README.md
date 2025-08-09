@@ -182,6 +182,7 @@
 - [169 Majority Element](https://leetcode.com/problems/majority-element/description/)
 - [172 Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/description/)
 - [173 Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/description/)
+- [187 Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/description/)
 - [188 Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/description/)
 - [189 Rotate Array](https://leetcode.com/problems/rotate-array/description/)
 - [190 Reverse Bits](https://leetcode.com/problems/reverse-bits/description/)

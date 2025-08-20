@@ -238,6 +238,7 @@
 - [392 Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)
 - [394 Decode String](https://leetcode.com/problems/decode-string/description/)
 - [399 Evaluate Division](https://leetcode.com/problems/evaluate-division/description/)
+- [405 Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/description/)
 - [412 Fizz Buzz](https://leetcode.com/problems/fizz-buzz/description/)
 - [415 Add Strings](https://leetcode.com/problems/add-strings/description/)
 - [427 Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/description/)

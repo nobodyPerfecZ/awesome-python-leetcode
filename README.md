@@ -246,6 +246,7 @@
 - [452 Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)
 - [461 Hamming Distance](https://leetcode.com/problems/hamming-distance/description/)
 - [474 Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/description/)
+- [477 Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/description/)
 - [502 IPO](https://leetcode.com/problems/ipo/description/)
 - [509 Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)
 - [516 Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/)

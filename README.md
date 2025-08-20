@@ -236,6 +236,7 @@
 - [383 Ransom Note](https://leetcode.com/problems/ransom-note/description/)
 - [389 Find the Difference](https://leetcode.com/problems/find-the-difference/description/)
 - [392 Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)
+- [393 UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/description/)
 - [394 Decode String](https://leetcode.com/problems/decode-string/description/)
 - [399 Evaluate Division](https://leetcode.com/problems/evaluate-division/description/)
 - [405 Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/description/)

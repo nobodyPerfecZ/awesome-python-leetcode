@@ -239,6 +239,7 @@
 - [393 UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/description/)
 - [394 Decode String](https://leetcode.com/problems/decode-string/description/)
 - [399 Evaluate Division](https://leetcode.com/problems/evaluate-division/description/)
+- [401 Binary Watch](https://leetcode.com/problems/binary-watch/description/)
 - [405 Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/description/)
 - [412 Fizz Buzz](https://leetcode.com/problems/fizz-buzz/description/)
 - [415 Add Strings](https://leetcode.com/problems/add-strings/description/)

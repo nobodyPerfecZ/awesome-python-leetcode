@@ -294,6 +294,7 @@
 - [2390 Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/)
 - [2466 Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/description/)
 - [2523 Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/description/)
+- [2785 Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/description/)
 - [2799 Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/description/)
 - [3136 Valid Word](https://leetcode.com/problems/valid-word/description/)
 - [3202 Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/description/)

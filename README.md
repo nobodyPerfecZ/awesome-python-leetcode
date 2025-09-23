@@ -302,6 +302,7 @@
 - [3136 Valid Word](https://leetcode.com/problems/valid-word/description/)
 - [3202 Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/description/)
 - [3392 Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/description/)
+- [3408 Design Task Manager](https://leetcode.com/problems/design-task-manager/description/)
 - [3446 Sort Matrix by Diagonals](https://leetcode.com/problems/sort-matrix-by-diagonals/description/)
 
 ## Development 🔧

@@ -281,6 +281,7 @@
 - [1137 N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/description/)
 - [1143 Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/description/)
 - [1218 Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/description/)
+- [1304 Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/description/)
 - [1312 Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/description/)
 - [1329 Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/description/)
 - [1456 Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/)

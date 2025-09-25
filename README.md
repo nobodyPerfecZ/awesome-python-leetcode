@@ -292,6 +292,7 @@
 - [1912 Design Movie Rental System](https://leetcode.com/problems/design-movie-rental-system/description/)
 - [1991 Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/description/)
 - [1922 Count Good Numbers](https://leetcode.com/problems/count-good-numbers/description/)
+- [1935 Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/description/)
 - [1964 Find the Longest Valid Obstacle Course at Each Position](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/description/)
 - [2140 Solving Questions With Brainpower](https://leetcode.com/problems/solving-questions-with-brainpower/description/)
 - [2215 Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/description/)

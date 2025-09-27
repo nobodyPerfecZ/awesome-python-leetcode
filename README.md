@@ -270,6 +270,7 @@
 - [740 Delete and Earn](https://leetcode.com/problems/delete-and-earn/description/)
 - [746 Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/)
 - [790 Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/description/)
+- [812 Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/description/)
 - [909 Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/description/)
 - [918 Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/description/)
 - [931 Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/description/)

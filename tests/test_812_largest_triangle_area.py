@@ -12,7 +12,7 @@ from awesome_python_leetcode._812_largest_triangle_area import Solution
         ([[1, 0], [0, 0], [0, 1]], 0.5),
     ],
 )
-def test_func(points: List[List[int]], expected: List[int]):
+def test_func(points: List[List[int]], expected: float):
     """Tests the solution of a LeetCode problem."""
     triangle_area = Solution().largestTriangleArea(points)
     assert triangle_area == expected

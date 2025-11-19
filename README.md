@@ -297,6 +297,7 @@
 - [1935 Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/description/)
 - [1964 Find the Longest Valid Obstacle Course at Each Position](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/description/)
 - [2140 Solving Questions With Brainpower](https://leetcode.com/problems/solving-questions-with-brainpower/description/)
+- [2154 Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/description/)
 - [2215 Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/description/)
 - [2353 Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/description/)
 - [2390 Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/)

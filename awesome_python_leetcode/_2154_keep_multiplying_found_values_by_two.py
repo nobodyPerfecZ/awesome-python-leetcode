@@ -1,0 +1,26 @@
+from typing import List
+
+
+class Solution:
+    """Base class for all LeetCode Problems."""
+
+    def findFinalValue(self, nums: List[int], original: int) -> int:
+        """
+        You are given an array of integers nums. You are also given an integer original
+        which is the first number that needs to be searched for in nums.
+
+        You then do the following steps:
+        1. If original is found in nums, multiply it by two (i.e., set original = 2 *
+        original).
+        2. Otherwise, stop the process.
+        3. Repeat this process with the new number as long as you keep finding the
+        number.
+
+        Return the final value of original.
+        """
+        # Time Complexity: O(1)
+        # Space Complexity: O(n)
+        nums = set(nums)
+        while original in nums:
+            original *= 2
+        return original

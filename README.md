@@ -3,7 +3,7 @@
         <p>
             <img src="docs/images/logo_dark.png", alt="Logo", width="300" height="300" />
         </p>
-        💡 Awesome Python Leetcode 
+        💡 Awesome Python Leetcode
         <br>
         <span style="font-size: large">
             Awesome Leetcode problems and solutions written in Python!
@@ -307,6 +307,7 @@
 - [2799 Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/description/)
 - [3005 Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/description/)
 - [3136 Valid Word](https://leetcode.com/problems/valid-word/description/)
+- [3190 Find Minimum Operations to Make All Elements Divisible by Three](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/description/)
 - [3202 Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/description/)
 - [3318 Find X-Sum of All K-Long Subarrays I](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/description/)
 - [3392 Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/description/)

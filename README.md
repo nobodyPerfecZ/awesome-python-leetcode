@@ -278,6 +278,7 @@
 - [933 Number of Recent Cells](https://leetcode.com/problems/number-of-recent-calls/description/)
 - [983 Minimum Cost for Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/description/)
 - [1009 Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/description/)
+- [1018 Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/description/)
 - [1027 Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/description/)
 - [1035 Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/description/)
 - [1137 N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/description/)

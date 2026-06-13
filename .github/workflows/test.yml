@@ -37,9 +37,10 @@ jobs:
 
       - name: Run Unittests with Coverage
         run: |
-          uv run pytest --cov=app --cov-report=xml
+          uv run pytest --cov=awesome_python_leetcode --cov-report=xml:coverage.xml
 
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v5
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
+          files: coverage.xml

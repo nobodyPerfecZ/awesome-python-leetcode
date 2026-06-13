@@ -3,19 +3,16 @@ from typing import Dict, List, Optional
 
 
 class Node:
-    def __init__(self, val=0, neighbors=None):
+    def __init__(self, val: int = 0, neighbors: Optional[List["Node"]] = None) -> None:
+        """Initialize the node."""
         self.val = val
-        self.neighbors = neighbors if neighbors is not None else []
+        self.neighbors: List["Node"] = neighbors if neighbors is not None else []
 
     def __hash__(self) -> int:
         return self.val
 
-    def __eq__(self, other: Optional["Node"]) -> bool:
-        if self is None and other is None:
-            return True
-        elif self is None:
-            return False
-        elif other is None:
+    def __eq__(self, other: object) -> bool:
+        if not isinstance(other, Node):
             return False
         adj1 = self.adj_list()
         adj2 = other.adj_list()
@@ -24,7 +21,7 @@ class Node:
     def adj_list(self) -> Dict[int, List[int]]:
         """Return the adjacency list of the graph."""
         adj = collections.defaultdict(list)
-        queue = [self]
+        queue: List[Node] = [self]
         visited = {self.val}
         while queue:
             node = queue.pop(0)
@@ -87,8 +84,8 @@ class Solution:
             return None
 
         # Create all new nodes (without neighbors)
-        old_to_copy = {None: None}
-        queue = [node]
+        old_to_copy: Dict[Optional[Node], Optional[Node]] = {None: None}
+        queue: List[Node] = [node]
         visited = {node}
         while queue:
             cur = queue.pop(0)
@@ -100,12 +97,18 @@ class Solution:
                     visited.add(nxt)
 
         # Add all neighbors to new nodes
-        queue = [node]
+        queue: List[Node] = [node]
         visited = {node}
         while queue:
             cur = queue.pop(0)
             copy = old_to_copy[cur]
-            copy.neighbors = [old_to_copy[nxt] for nxt in cur.neighbors]
+            if copy is not None:
+                neighbors: List[Node] = []
+                for nxt in cur.neighbors:
+                    cloned_neighbor = old_to_copy[nxt]
+                    if cloned_neighbor is not None:
+                        neighbors.append(cloned_neighbor)
+                copy.neighbors = neighbors
             for nxt in cur.neighbors:
                 if nxt not in visited:
                     queue.append(nxt)

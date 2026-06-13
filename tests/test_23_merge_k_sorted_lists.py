@@ -15,7 +15,7 @@ from awesome_python_leetcode._23_merge_k_sorted_lists import ListNode, Solution
 )
 def test_func(lists: List[List[int]], expected: List[int]):
     """Tests the solution of a LeetCode problem."""
-    lists = [ListNode.build(sublist) for sublist in lists]
-    expected = ListNode.build(expected)
-    actual = Solution().mergeKLists(lists)
-    assert actual == expected
+    lists_node = [ListNode.build(sublist) for sublist in lists]
+    expected_node = ListNode.build(expected)
+    actual = Solution().mergeKLists(lists_node)
+    assert actual == expected_node

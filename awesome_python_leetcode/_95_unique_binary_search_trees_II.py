@@ -14,7 +14,7 @@ class Solution:
         """
         dp = {}
 
-        def dfs(remain: Tuple[int]):
+        def dfs(remain: Tuple[int, ...]) -> List[Optional[TreeNode]]:
             if not remain:
                 return [None]
             if remain in dp:

@@ -1,3 +1,4 @@
+import sys
 from typing import List
 
 
@@ -16,7 +17,7 @@ class Solution:
         # Time Complexity: O(n^2)
         # Space Complexity: O(1)
         nums = sorted(nums)
-        closestSum = -float("inf")
+        closestSum = -sys.maxsize
         i = 0
         while i < len(nums) - 2:
             if i > 0 and nums[i] == nums[i - 1]:

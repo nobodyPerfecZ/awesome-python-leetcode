@@ -1,4 +1,5 @@
 import bisect
+import sys
 from typing import List
 
 
@@ -24,7 +25,7 @@ class Solution:
         obstacle course for index i as described above.
         """
         results = []
-        dp = [float("inf") for _ in range(len(obstacles) + 1)]
+        dp = [sys.maxsize for _ in range(len(obstacles) + 1)]
         for k in range(len(obstacles)):
             i = bisect.bisect(dp, obstacles[k])
             results.append(i + 1)

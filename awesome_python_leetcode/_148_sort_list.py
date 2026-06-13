@@ -6,7 +6,9 @@ from awesome_python_leetcode.list import ListNode
 class Solution:
     """Base class for all LeetCode Problems."""
 
-    def merge(self, left: Optional[ListNode], right: Optional[ListNode]):
+    def merge(
+        self, left: Optional[ListNode], right: Optional[ListNode]
+    ) -> Optional[ListNode]:
         dummy = ListNode(0)
         head = dummy
         while left and right:
@@ -23,10 +25,12 @@ class Solution:
             head.next = right
         return dummy.next
 
-    def getMid(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        slow, fast = head, head.next
+    def getMid(self, head: ListNode) -> ListNode:
+        slow: ListNode = head
+        fast: Optional[ListNode] = head.next
         while fast and fast.next:
-            slow = slow.next
+            if slow.next:
+                slow = slow.next
             fast = fast.next.next
         return slow
 
@@ -35,7 +39,7 @@ class Solution:
         Given the head of a linked list, return the list after sorting it in
         ascending order.
         """
-        if not head or not head.next:
+        if head is None or head.next is None:
             return head
 
         # Split list into two halfs

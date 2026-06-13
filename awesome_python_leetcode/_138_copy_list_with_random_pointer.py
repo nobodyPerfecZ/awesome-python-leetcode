@@ -1,8 +1,13 @@
-from typing import List, Optional, Tuple
+from typing import Dict, List, Optional, Tuple
 
 
 class Node:
-    def __init__(self, x: int, next: "Node" = None, random: "Node" = None):
+    def __init__(
+        self,
+        x: int,
+        next: Optional["Node"] = None,
+        random: Optional["Node"] = None,
+    ):
         self.val = int(x)
         self.next = next
         self.random = random
@@ -10,7 +15,9 @@ class Node:
     def __hash__(self):
         return hash(self.val)
 
-    def __eq__(self, other: "Node") -> bool:
+    def __eq__(self, other: object) -> bool:
+        if not isinstance(other, Node):
+            return False
         n1, n2 = self, other
         while n1 and n2:
             if n1.val != n2.val:
@@ -29,7 +36,7 @@ class Node:
         return True
 
     @staticmethod
-    def build(values: List[Tuple[int, Optional[int]]]) -> "Node":
+    def build(values: List[Tuple[int, Optional[int]]]) -> Optional["Node"]:
         """Build a singly-linked list."""
         if not values:
             return None
@@ -78,7 +85,7 @@ class Solution:
 
         Your code will only be given the head of the original linked list.
         """
-        oldToCopy = {None: None}
+        oldToCopy: Dict[Optional[Node], Optional[Node]] = {None: None}
 
         cur = head
         while cur:
@@ -89,8 +96,9 @@ class Solution:
         cur = head
         while cur:
             copy = oldToCopy[cur]
-            copy.next = oldToCopy[cur.next]
-            copy.random = oldToCopy[cur.random]
+            if copy is not None:
+                copy.next = oldToCopy[cur.next]
+                copy.random = oldToCopy[cur.random]
             cur = cur.next
 
         return oldToCopy[head]

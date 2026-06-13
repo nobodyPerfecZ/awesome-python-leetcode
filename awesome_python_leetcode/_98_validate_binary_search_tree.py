@@ -1,3 +1,4 @@
+import sys
 from typing import Optional
 
 from awesome_python_leetcode.tree import TreeNode
@@ -30,4 +31,4 @@ class Solution:
                     and root.val < right
                 )
 
-        return dfs(root, -float("inf"), +float("inf"))
+        return dfs(root, -sys.maxsize, +sys.maxsize)

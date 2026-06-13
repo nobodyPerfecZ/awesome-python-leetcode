@@ -30,14 +30,16 @@ class Solution:
         n = self.length(head)
 
         for _ in range(n // k):
-            prev = None
+            prev: Optional[ListNode] = None
             for _ in range(k):
-                tmp = cur.next
-                cur.next = prev
-                prev, cur = cur, tmp
-            left.next.next = cur
-            tmp2 = left.next
-            left.next = prev
-            left = tmp2
+                if cur is not None:
+                    tmp = cur.next
+                    cur.next = prev
+                    prev, cur = cur, tmp
+            if left.next is not None:
+                left.next.next = cur
+                tmp2 = left.next
+                left.next = prev
+                left = tmp2
 
         return dummy.next

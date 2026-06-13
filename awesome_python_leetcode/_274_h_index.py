@@ -28,3 +28,4 @@ class Solution:
             num_paper += count[h_index]
             if num_paper >= h_index:
                 return h_index
+        return 0

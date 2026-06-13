@@ -1,4 +1,5 @@
 import collections
+import sys
 from typing import List
 
 
@@ -20,7 +21,7 @@ class Solution:
             return nums[0]
 
         count = collections.defaultdict(int)
-        minVal, maxVal = float("inf"), -float("inf")
+        minVal, maxVal = sys.maxsize, -sys.maxsize
         for n in nums:
             count[n] += n
             minVal = min(minVal, n)

@@ -1,3 +1,4 @@
+import sys
 from typing import List
 
 
@@ -9,7 +10,7 @@ class Solution:
         Given an integer array nums, find the subarray with the largest sum, and return
         its sum.
         """
-        maxSum, curSum = -float("inf"), -float("inf")
+        maxSum, curSum = -sys.maxsize, -sys.maxsize
         for i in range(len(nums)):
             if curSum < 0:
                 curSum = nums[i]

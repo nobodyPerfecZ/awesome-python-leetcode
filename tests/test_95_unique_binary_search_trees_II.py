@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Optional
 
 import pytest
 
@@ -22,10 +22,11 @@ from awesome_python_leetcode.tree import TreeNode
         (1, [[1]]),
     ],
 )
-def test_func(n: int, expected: List[List[int]]):
+def test_func(n: int, expected: List[List[Optional[int]]]):
     """Tests the solution of a LeetCode problem."""
-    expected = [TreeNode.build(tree) for tree in expected]
+    expected_nodes = [TreeNode.build(tree) for tree in expected]
     bsts = Solution().generateTrees(n)
     assert all(
-        actual == expected for actual, expected in zip(bsts, expected, strict=True)
+        actual == expected
+        for actual, expected in zip(bsts, expected_nodes, strict=True)
     )

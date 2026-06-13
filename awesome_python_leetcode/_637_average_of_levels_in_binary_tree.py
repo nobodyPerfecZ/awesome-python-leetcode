@@ -12,7 +12,10 @@ class Solution:
         level in the form of an array. Answers within 10-5 of the actual answer will be
         accepted.
         """
-        parents = [root]
+        if root is None:
+            return []
+
+        parents: List[TreeNode] = [root]
         result = []
         while parents:
             # Build average value
@@ -22,11 +25,11 @@ class Solution:
             result.append(total_sum / len(parents))
 
             # Build childs
-            childs = []
+            childs: List[TreeNode] = []
             for p in parents:
-                if p.left:
+                if p.left is not None:
                     childs.append(p.left)
-                if p.right:
+                if p.right is not None:
                     childs.append(p.right)
             parents = childs
         return result

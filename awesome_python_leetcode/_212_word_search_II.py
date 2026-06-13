@@ -1,8 +1,8 @@
-from typing import Dict, List
+from typing import Dict, List, Optional
 
 
 class Trie:
-    def __init__(self, end: bool = False, letters: Dict[str, "Trie"] = None):
+    def __init__(self, end: bool = False, letters: Optional[Dict[str, "Trie"]] = None):
         self.end = end
         self.children = letters if letters is not None else {}
 

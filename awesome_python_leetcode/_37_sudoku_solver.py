@@ -53,4 +53,4 @@ class Solution:
                 squares[square].add(val)
             return False
 
-        return dfs(0, 0)
+        dfs(0, 0)

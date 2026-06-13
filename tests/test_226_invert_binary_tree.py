@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Optional
 
 import pytest
 
@@ -13,9 +13,9 @@ from awesome_python_leetcode._226_invert_binary_tree import Solution, TreeNode
         ([], []),
     ],
 )
-def test_func(root: List[int], expected: List[int]):
+def test_func(root: List[Optional[int]], expected: List[Optional[int]]):
     """Tests the solution of a LeetCode problem."""
-    root = TreeNode.build(root)
+    root_node = TreeNode.build(root)
     solution = TreeNode.build(expected)
-    actual = Solution().invertTree(root)
+    actual = Solution().invertTree(root_node)
     assert actual == solution

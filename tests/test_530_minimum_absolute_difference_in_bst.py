@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Optional
 
 import pytest
 
@@ -10,8 +10,8 @@ from awesome_python_leetcode.tree import TreeNode
     argnames=["root", "expected"],
     argvalues=[([4, 2, 6, 1, 3], 1), ([1, 0, 48, None, None, 12, 49], 1)],
 )
-def test_func(root: List[int], expected: int):
+def test_func(root: List[Optional[int]], expected: int):
     """Tests the solution of a LeetCode problem."""
-    root = TreeNode.build(root)
-    minimum_difference = Solution().getMinimumDifference(root)
+    root_node = TreeNode.build(root)
+    minimum_difference = Solution().getMinimumDifference(root_node)
     assert minimum_difference == expected

@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Optional
 
 import pytest
 
@@ -15,8 +15,8 @@ from awesome_python_leetcode.tree import TreeNode
         ([], []),
     ],
 )
-def test_func(root: List[int], expected: List[int]):
+def test_func(root: List[Optional[int]], expected: List[int]):
     """Tests the solution of a LeetCode problem."""
-    root = TreeNode.build(root)
-    right_side_view = Solution().rightSideView(root)
+    root_node = TreeNode.build(root)
+    right_side_view = Solution().rightSideView(root_node)
     assert right_side_view == expected

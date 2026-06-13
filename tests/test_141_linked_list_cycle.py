@@ -15,6 +15,6 @@ from awesome_python_leetcode._141_linked_list_cycle import ListNode, Solution
 )
 def test_func(head: List[int], pos: int, expected: bool):
     """Tests the solution of a LeetCode problem."""
-    head = ListNode.build(head, pos)
-    has_cycle = Solution().hasCycle(head)
+    head_node = ListNode.build(head, pos)
+    has_cycle = Solution().hasCycle(head_node)
     assert has_cycle is expected

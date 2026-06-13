@@ -17,7 +17,7 @@ from awesome_python_leetcode._82_remove_duplicates_from_sorted_list_II import (
 )
 def test_func(head: List[int], expected: List[int]):
     """Tests the solution of a LeetCode problem."""
-    head = ListNode.build(head)
-    expected = ListNode.build(expected)
-    head = Solution().deleteDuplicates(head)
-    assert head == expected
+    head_node = ListNode.build(head)
+    expected_node = ListNode.build(expected)
+    result_node = Solution().deleteDuplicates(head_node)
+    assert result_node == expected_node

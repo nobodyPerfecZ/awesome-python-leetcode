@@ -1,12 +1,8 @@
-# flake8: noqa
-from typing import List
+from typing import List, Optional
 
 import pytest
 
-from awesome_python_leetcode._117_populating_next_right_pointers_in_each_node_II import (
-    Solution,
-    TreeNode,
-)
+import awesome_python_leetcode._117_populating_next_right_pointers_in_each_node_II as prob  # noqa: E501
 
 
 @pytest.mark.parametrize(
@@ -16,9 +12,12 @@ from awesome_python_leetcode._117_populating_next_right_pointers_in_each_node_II
         ([], []),
     ],
 )
-def test_func(root: List[int], expected: List[int]):
+def test_func(root: List[Optional[int]], expected: List[Optional[int]]):
     """Tests the solution of a LeetCode problem."""
-    root = TreeNode.build(root)
-    expected = expected if expected else None
-    connected_root = Solution().connect(root)
-    assert connected_root == expected
+    root_node = prob.TreeNode.build(root)
+    expected_val: Optional[List[Optional[int]]] = expected if expected else None
+    if root_node is not None:
+        connected_root = prob.Solution().connect(root_node)
+        assert connected_root == expected_val
+    else:
+        assert root_node == expected_val

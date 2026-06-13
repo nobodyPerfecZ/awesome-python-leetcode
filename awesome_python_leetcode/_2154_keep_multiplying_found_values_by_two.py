@@ -20,7 +20,7 @@ class Solution:
         """
         # Time Complexity: O(1)
         # Space Complexity: O(n)
-        nums = set(nums)
-        while original in nums:
+        num_set = set(nums)
+        while original in num_set:
             original *= 2
         return original

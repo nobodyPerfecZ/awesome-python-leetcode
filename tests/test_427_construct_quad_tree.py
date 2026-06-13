@@ -41,5 +41,5 @@ from awesome_python_leetcode._427_construct_quad_tree import QuadTreeNode, Solut
 def test_func(grid: List[List[int]], expected: List[List[int]]):
     """Tests the solution of a LeetCode problem."""
     actual = Solution().construct(grid)
-    expected = QuadTreeNode.build(expected)
-    assert actual == expected
+    expected_node = QuadTreeNode.build(expected)
+    assert actual == expected_node

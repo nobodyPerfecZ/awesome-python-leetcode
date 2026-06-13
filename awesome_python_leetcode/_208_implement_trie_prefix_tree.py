@@ -1,4 +1,4 @@
-from typing import Dict
+from typing import Dict, Optional
 
 
 class Trie:
@@ -18,9 +18,9 @@ class Trie:
 
     def __init__(
         self,
-        val: str = None,
+        val: Optional[str] = None,
         end: bool = False,
-        letters: Dict[str, "Trie"] = None,
+        letters: Optional[Dict[str, "Trie"]] = None,
     ):
         self.val = val
         self.end = end

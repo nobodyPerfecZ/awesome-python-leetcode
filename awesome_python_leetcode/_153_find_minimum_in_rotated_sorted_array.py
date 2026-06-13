@@ -1,3 +1,4 @@
+import sys
 from typing import List
 
 
@@ -20,7 +21,7 @@ class Solution:
         You must write an algorithm that runs in O(log n) time.
         """
         left, right = 0, len(nums) - 1
-        minVal = float("inf")
+        minVal = sys.maxsize
 
         while left <= right:
             if nums[left] < nums[right]:

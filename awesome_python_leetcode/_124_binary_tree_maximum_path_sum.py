@@ -18,6 +18,8 @@ class Solution:
         Given the root of a binary tree, return the maximum path sum of any non-empty
         path.
         """
+        if not root:
+            return 0
         res = [root.val]
 
         def dfs(root: Optional[TreeNode]) -> int:

@@ -1,3 +1,4 @@
+import sys
 from typing import List
 
 
@@ -23,10 +24,10 @@ class Solution:
             i = (left + right) // 2
             j = half - i - 2
 
-            leftSmall = small[i] if i >= 0 else -float("inf")
-            rightSmall = small[i + 1] if (i + 1) < len(small) else float("inf")
-            leftBig = big[j] if j >= 0 else -float("inf")
-            rightBig = big[j + 1] if (j + 1) < len(big) else float("inf")
+            leftSmall = small[i] if i >= 0 else -sys.maxsize
+            rightSmall = small[i + 1] if (i + 1) < len(small) else sys.maxsize
+            leftBig = big[j] if j >= 0 else -sys.maxsize
+            rightBig = big[j + 1] if (j + 1) < len(big) else sys.maxsize
 
             if leftSmall <= rightBig and leftBig <= rightSmall:
                 if total % 2:

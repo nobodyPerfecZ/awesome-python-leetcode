@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Optional
 
 import pytest
 
@@ -10,13 +10,10 @@ from awesome_python_leetcode._108_convert_sorted_array_to_binary_search_tree imp
 
 @pytest.mark.parametrize(
     argnames=["nums", "expected"],
-    argvalues=[
-        ([-10, -3, 0, 5, 9], [0, -3, 9, -10, None, 5]),
-        ([1, 3], [3, 1]),
-    ],
+    argvalues=[([-10, -3, 0, 5, 9], [0, -3, 9, -10, None, 5]), ([1, 3], [3, 1])],
 )
-def test_func(nums: List[int], expected: List[int]):
+def test_func(nums: List[int], expected: List[Optional[int]]):
     """Tests the solution of a LeetCode problem."""
-    expected = TreeNode.build(expected)
+    expected_node = TreeNode.build(expected)
     actual = Solution().sortedArrayToBST(nums)
-    assert actual == expected
+    assert actual == expected_node

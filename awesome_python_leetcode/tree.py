@@ -7,45 +7,40 @@ class QuadTreeNode:
     def __init__(
         self,
         val: int = 0,
-        isLeaf: bool = False,
+        isLeaf: int | bool = False,
         topLeft: Optional["QuadTreeNode"] = None,
         topRight: Optional["QuadTreeNode"] = None,
         bottomLeft: Optional["QuadTreeNode"] = None,
         bottomRight: Optional["QuadTreeNode"] = None,
     ):
         self.val = val
-        self.isLeaf = isLeaf
+        self.isLeaf = bool(isLeaf)
         self.topLeft = topLeft
         self.topRight = topRight
         self.bottomLeft = bottomLeft
         self.bottomRight = bottomRight
 
-    def __eq__(self, other: "QuadTreeNode") -> bool:
-        if self is None and other is None:
-            return True
-        elif self is None:
+    def __eq__(self, other: object) -> bool:
+        if not isinstance(other, QuadTreeNode):
             return False
-        elif other is None:
-            return False
-        else:
-            return (
-                self.val == other.val
-                and self.isLeaf == other.isLeaf
-                and self.topLeft == other.topLeft
-                and self.topRight == other.topRight
-                and self.bottomLeft == other.bottomLeft
-                and self.bottomRight == other.bottomRight
-            )
+        return (
+            self.val == other.val
+            and self.isLeaf == other.isLeaf
+            and self.topLeft == other.topLeft
+            and self.topRight == other.topRight
+            and self.bottomLeft == other.bottomLeft
+            and self.bottomRight == other.bottomRight
+        )
 
     @staticmethod
     def build(levelorder: List[List[int]]) -> "QuadTreeNode":
         """Build a binary tree from levelorder traversal."""
         if not levelorder:
-            return None
+            return None  # type: ignore
 
         node_data = levelorder.pop(0)
         if node_data is None:
-            return None
+            return None  # type: ignore
 
         isLeaf, val = node_data
         head = QuadTreeNode(val, isLeaf)
@@ -93,19 +88,14 @@ class TreeNode:
         self.left = left
         self.right = right
 
-    def __eq__(self, other: "TreeNode") -> bool:
-        if self is None and other is None:
-            return True
-        elif self is None:
+    def __eq__(self, other: object) -> bool:
+        if not isinstance(other, TreeNode):
             return False
-        elif other is None:
-            return False
-        else:
-            return (
-                self.val == other.val
-                and self.left == other.left
-                and self.right == other.right
-            )
+        return (
+            self.val == other.val
+            and self.left == other.left
+            and self.right == other.right
+        )
 
     @staticmethod
     def find(root: Optional["TreeNode"], val: int) -> Optional["TreeNode"]:
@@ -118,11 +108,14 @@ class TreeNode:
             return TreeNode.find(root.left, val) or TreeNode.find(root.right, val)
 
     @staticmethod
-    def build(levelorder: List[int]) -> "TreeNode":
+    def build(levelorder: List[Optional[int]]) -> Optional["TreeNode"]:
         """Build a binary tree from levelorder traversal."""
-        if not levelorder or levelorder[0] is None:
+        if not levelorder:
             return None
-        root = TreeNode(levelorder[0])
+        val_0 = levelorder[0]
+        if val_0 is None:
+            return None
+        root = TreeNode(val_0)
         queue = [root]
 
         i = 1
@@ -130,14 +123,18 @@ class TreeNode:
             node = queue.pop(0)
 
             # Left child
-            if i < len(levelorder) and levelorder[i] is not None:
-                node.left = TreeNode(levelorder[i])
-                queue.append(node.left)
+            if i < len(levelorder):
+                val_l = levelorder[i]
+                if val_l is not None:
+                    node.left = TreeNode(val_l)
+                    queue.append(node.left)
             i += 1
 
             # Right child
-            if i < len(levelorder) and levelorder[i] is not None:
-                node.right = TreeNode(levelorder[i])
-                queue.append(node.right)
+            if i < len(levelorder):
+                val_r = levelorder[i]
+                if val_r is not None:
+                    node.right = TreeNode(val_r)
+                    queue.append(node.right)
             i += 1
         return root

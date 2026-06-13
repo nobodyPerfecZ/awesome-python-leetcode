@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Optional
 
 import pytest
 
@@ -16,9 +16,9 @@ from awesome_python_leetcode._114_flatten_binary_tree_to_linked_list import (
         ([0], [0]),
     ],
 )
-def test_func(root: List[int], expected: List[int]):
+def test_func(root: List[Optional[int]], expected: List[Optional[int]]):
     """Tests the solution of a LeetCode problem."""
-    root = TreeNode.build(root)
+    root_node = TreeNode.build(root)
     solution = TreeNode.build(expected)
-    Solution().flatten(root)
-    assert root == solution
+    Solution().flatten(root_node)
+    assert root_node == solution

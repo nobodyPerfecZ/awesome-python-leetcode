@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Optional
 
 import pytest
 
@@ -13,9 +13,9 @@ from awesome_python_leetcode._100_same_tree import Solution, TreeNode
         ([1, 2, 1], [1, 1, 2], False),
     ],
 )
-def test_func(p: List[int], q: List[int], expected: bool):
+def test_func(p: List[Optional[int]], q: List[Optional[int]], expected: bool):
     """Tests the solution of a LeetCode problem."""
-    p = TreeNode.build(p)
-    q = TreeNode.build(q)
-    is_same_tree = Solution().isSameTree(p, q)
+    p_node = TreeNode.build(p)
+    q_node = TreeNode.build(q)
+    is_same_tree = Solution().isSameTree(p_node, q_node)
     assert is_same_tree is expected

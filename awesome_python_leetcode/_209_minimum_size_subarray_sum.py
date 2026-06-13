@@ -1,3 +1,4 @@
+import sys
 from typing import List
 
 
@@ -10,7 +11,7 @@ class Solution:
         the minimal length of a subarray whose sum is greater than or equal to target.
         If there is no such subarray, return 0 instead.
         """
-        curVal, minLen = 0, float("inf")
+        curVal, minLen = 0, sys.maxsize
         left, right = 0, 0
         while left < len(nums) and right < len(nums):
             curVal += nums[right]
@@ -21,4 +22,4 @@ class Solution:
                 curVal -= nums[right]
                 curVal -= nums[left]
                 left += 1
-        return minLen if minLen < float("inf") else 0
+        return minLen if minLen < sys.maxsize else 0

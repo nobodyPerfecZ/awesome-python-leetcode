@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Optional
 
 import pytest
 
@@ -13,8 +13,8 @@ from awesome_python_leetcode._112_path_sum import Solution, TreeNode
         ([], 0, False),
     ],
 )
-def test_func(root: List[int], targetSum: int, expected: bool):
+def test_func(root: List[Optional[int]], targetSum: int, expected: bool):
     """Tests the solution of a LeetCode problem."""
-    root = TreeNode.build(root)
-    has_path_sum = Solution().hasPathSum(root, targetSum)
+    root_node = TreeNode.build(root)
+    has_path_sum = Solution().hasPathSum(root_node, targetSum)
     assert has_path_sum is expected

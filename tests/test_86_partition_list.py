@@ -17,7 +17,7 @@ from awesome_python_leetcode._86_partition_list import (
 )
 def test_func(head: List[int], x: int, expected: List[int]):
     """Tests the solution of a LeetCode problem."""
-    head = ListNode.build(head)
-    expected = ListNode.build(expected)
-    head = Solution().partition(head, x)
-    assert head == expected
+    head_node = ListNode.build(head)
+    expected_node = ListNode.build(expected)
+    result_node = Solution().partition(head_node, x)
+    assert result_node == expected_node

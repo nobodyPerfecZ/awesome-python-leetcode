@@ -12,7 +12,7 @@ from awesome_python_leetcode._646_maximum_length_of_pair_chain import Solution
         ([[1, 2], [7, 8], [4, 5]], 3),
     ],
 )
-def test_func(pairs: List[int], expected: int):
+def test_func(pairs: List[List[int]], expected: int):
     """Tests the solution of a LeetCode problem."""
     longest_chain = Solution().findLongestChain(pairs)
     assert longest_chain == expected

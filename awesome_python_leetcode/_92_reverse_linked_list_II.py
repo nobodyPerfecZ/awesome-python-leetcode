@@ -20,14 +20,17 @@ class Solution:
         dummy = ListNode(0, head)
         prev_left, cur = dummy, head
         for _ in range(left - 1):
-            prev_left, cur = cur, cur.next
+            if cur is not None:
+                prev_left, cur = cur, cur.next
 
-        prev_right = None
+        prev_right: Optional[ListNode] = None
         for _ in range(right - left + 1):
-            tmp = cur.next
-            cur.next = prev_right
-            prev_right, cur = cur, tmp
+            if cur is not None:
+                tmp = cur.next
+                cur.next = prev_right
+                prev_right, cur = cur, tmp
 
-        prev_left.next.next = cur
+        if prev_left.next is not None:
+            prev_left.next.next = cur
         prev_left.next = prev_right
         return dummy.next

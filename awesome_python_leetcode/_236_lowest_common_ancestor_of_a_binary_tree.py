@@ -1,3 +1,5 @@
+from typing import Optional
+
 from awesome_python_leetcode.tree import TreeNode
 
 
@@ -6,10 +8,10 @@ class Solution:
 
     def lowestCommonAncestor(
         self,
-        root: "TreeNode",
+        root: Optional["TreeNode"],
         p: "TreeNode",
         q: "TreeNode",
-    ) -> "TreeNode":
+    ) -> Optional["TreeNode"]:
         """
         Given a binary tree, find the lowest common ancestor (LCA) of two given nodes
         in the tree.

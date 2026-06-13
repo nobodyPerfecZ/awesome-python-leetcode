@@ -21,9 +21,11 @@ class Solution:
         """
         if list1 is None and list2 is None:
             return None
-        elif list1 is None:
-            return ListNode(list2.val, self.mergeTwoLists(None, list2.next))
-        elif list2 is None:
+        if list1 is None:
+            if list2 is not None:
+                return ListNode(list2.val, self.mergeTwoLists(None, list2.next))
+            return None
+        if list2 is None:
             return ListNode(list1.val, self.mergeTwoLists(list1.next, None))
         elif list1.val <= list2.val:
             return ListNode(list1.val, self.mergeTwoLists(list1.next, list2))

@@ -1,3 +1,4 @@
+import sys
 from typing import List
 
 
@@ -17,8 +18,8 @@ class Solution:
         Formally, for a subarray nums[i], nums[i + 1], ..., nums[j], there does not
         exist i <= k1, k2 <= j with k1 % n == k2 % n.
         """
-        maxSum, curMax = -float("inf"), -float("inf")
-        minSum, curMin = float("inf"), float("inf")
+        maxSum, curMax = -sys.maxsize, -sys.maxsize
+        minSum, curMin = sys.maxsize, sys.maxsize
         totalSum = 0
         for i in range(len(nums)):
             if curMax < 0:

@@ -19,8 +19,10 @@ class Solution:
             n -= 1
 
         while right:
-            left = left.next
+            if left.next:
+                left = left.next
             right = right.next
 
-        left.next = left.next.next
+        if left.next:
+            left.next = left.next.next
         return dummy.next

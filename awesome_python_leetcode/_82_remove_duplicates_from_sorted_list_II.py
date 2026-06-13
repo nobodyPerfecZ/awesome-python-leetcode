@@ -13,13 +13,16 @@ class Solution:
         list sorted as well.
         """
         dummy = ListNode(0, head)
-        prev, cur = dummy, head
+        prev: Optional[ListNode] = dummy
+        cur = head
         while cur and cur.next:
             if cur.val == cur.next.val:
                 while cur.next and cur.val == cur.next.val:
                     cur = cur.next
-                prev.next = cur.next
+                if prev is not None:
+                    prev.next = cur.next
             else:
-                prev = prev.next
+                if prev is not None:
+                    prev = prev.next
             cur = cur.next
         return dummy.next

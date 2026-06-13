@@ -24,7 +24,7 @@ class Solution:
             left = dfs(root.left)
             right = dfs(root.right)
 
-            if root.left:
+            if left:
                 left.right = root.right
                 root.right = root.left
                 root.left = None

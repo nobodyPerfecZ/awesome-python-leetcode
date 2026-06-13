@@ -1,3 +1,4 @@
+import sys
 from typing import List
 
 
@@ -12,7 +13,7 @@ class Solution:
         formally, if you are on index i on the current row, you may move to either
         index i or index i + 1 on the next row.
         """
-        dp = [[float("inf")] * len(layer) for layer in triangle]
+        dp = [[sys.maxsize] * len(layer) for layer in triangle]
         dp[-1] = triangle[-1]
         for i in range(len(triangle) - 2, -1, -1):
             for j in range(len(triangle[i])):

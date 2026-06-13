@@ -13,11 +13,11 @@ class Solution:
         - Each unique word in s maps to exactly one letter in pattern.
         - No two letters map to the same word, and no two words map to the same letter.
         """
-        s = s.split()
-        if len(pattern) != len(s):
+        words = s.split()
+        if len(pattern) != len(words):
             return False
         policy, reverse_policy = {}, {}
-        for pattern_, s_ in zip(pattern, s, strict=True):
+        for pattern_, s_ in zip(pattern, words, strict=True):
             if pattern_ in policy and policy[pattern_] != s_:
                 return False
             if s_ in reverse_policy and reverse_policy[s_] != pattern_:

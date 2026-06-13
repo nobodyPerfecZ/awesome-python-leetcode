@@ -8,21 +8,16 @@ class ListNode:
         self.val = val
         self.next = next
 
-    def __eq__(self, other: "ListNode") -> bool:
-        if self is None and other is None:
-            return True
-        elif self is None:
+    def __eq__(self, other: object) -> bool:
+        if not isinstance(other, ListNode):
             return False
-        elif other is None:
-            return False
-        else:
-            return self.val == other.val and self.next == other.next
+        return self.val == other.val and self.next == other.next
 
     @staticmethod
     def build(values: List[int], pos: Optional[int] = None) -> "ListNode":
         """Build a singly-linked list with cycle."""
         if not values:
-            return None
+            return None  # type: ignore
 
         i = 0
         prev, head, cycle = None, None, None
@@ -32,13 +27,19 @@ class ListNode:
                 prev = head
             else:
                 node = ListNode(val=val)
+                if prev is None:
+                    raise ValueError("prev cannot be None")
                 prev.next = node
                 prev = node
 
             if pos is not None and i == pos:
                 cycle = prev
             elif pos is not None and i == len(values) - 1:
+                if prev is None:
+                    raise ValueError("prev cannot be None")
                 prev.next = cycle
+        if head is None:
+            raise ValueError("head cannot be None")
         return head
 
 
@@ -58,7 +59,7 @@ class Solution:
         Return true if there is a cycle in the linked list. Otherwise, return false.
         """
         i, j = head, head
-        while j and j.next:
+        while i and j and j.next:
             i = i.next
             j = j.next.next
             if i is j:

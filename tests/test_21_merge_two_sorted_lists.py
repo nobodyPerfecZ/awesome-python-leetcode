@@ -15,8 +15,8 @@ from awesome_python_leetcode._21_merge_two_sorted_lists import ListNode, Solutio
 )
 def test_func(list1: List[int], list2: List[int], expected: List[int]):
     """Tests the solution of a LeetCode problem."""
-    list1 = ListNode.build(list1)
-    list2 = ListNode.build(list2)
-    expected = ListNode.build(expected)
-    actual = Solution().mergeTwoLists(list1, list2)
-    assert actual == expected
+    list1_node = ListNode.build(list1)
+    list2_node = ListNode.build(list2)
+    expected_node = ListNode.build(expected)
+    actual = Solution().mergeTwoLists(list1_node, list2_node)
+    assert actual == expected_node

@@ -8,18 +8,13 @@ class ListNode:
         self.val = val
         self.next = next
 
-    def __eq__(self, other: "ListNode") -> bool:
-        if self is None and other is None:
-            return True
-        elif self is None:
+    def __eq__(self, other: object) -> bool:
+        if not isinstance(other, ListNode):
             return False
-        elif other is None:
-            return False
-        else:
-            return self.val == other.val and self.next == other.next
+        return self.val == other.val and self.next == other.next
 
     @staticmethod
-    def build(values: List[int]) -> "ListNode":
+    def build(values: List[int]) -> Optional["ListNode"]:
         """Build a singly-linked list."""
         if not values:
             return None

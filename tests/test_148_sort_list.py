@@ -15,7 +15,7 @@ from awesome_python_leetcode._148_sort_list import ListNode, Solution
 )
 def test_func(head: List[int], expected: List[int]):
     """Tests the solution of a LeetCode problem."""
-    head = ListNode.build(head)
-    expected = ListNode.build(expected)
-    actual = Solution().sortList(head)
-    assert actual == expected
+    head_node = ListNode.build(head)
+    expected_node = ListNode.build(expected)
+    actual = Solution().sortList(head_node)
+    assert actual == expected_node

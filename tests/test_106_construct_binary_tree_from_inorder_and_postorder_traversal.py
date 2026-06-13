@@ -1,5 +1,5 @@
 # flake8: noqa
-from typing import List
+from typing import List, Optional
 
 import pytest
 
@@ -16,7 +16,7 @@ from awesome_python_leetcode._106_construct_binary_tree_from_inorder_and_postord
         ([-1], [-1], [-1]),
     ],
 )
-def test_func(inorder: List[int], postorder: List[int], expected: List[int]):
+def test_func(inorder: List[int], postorder: List[int], expected: List[Optional[int]]):
     """Tests the solution of a LeetCode problem."""
     solution = TreeNode.build(expected)
     actual = Solution().buildTree(inorder, postorder)

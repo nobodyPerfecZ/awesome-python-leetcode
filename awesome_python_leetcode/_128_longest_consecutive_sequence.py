@@ -11,12 +11,12 @@ class Solution:
 
         You must write an algorithm that runs in O(n) time.
         """
-        nums = set(nums)
+        num_set = set(nums)
         longest = 0
-        for n in nums:
-            if n - 1 not in nums:
+        for n in num_set:
+            if n - 1 not in num_set:
                 length = 0
-                while (n + length) in nums:
+                while (n + length) in num_set:
                     length += 1
                 longest = max(longest, length)
         return longest

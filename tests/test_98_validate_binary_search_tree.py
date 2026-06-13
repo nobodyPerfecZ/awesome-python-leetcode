@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Optional
 
 import pytest
 
@@ -14,8 +14,8 @@ from awesome_python_leetcode.tree import TreeNode
         ([32, 26, 47, 19, None, None, 56, None, 27], False),
     ],
 )
-def test_func(root: List[int], expected: bool):
+def test_func(root: List[Optional[int]], expected: bool):
     """Tests the solution of a LeetCode problem."""
-    root = TreeNode.build(root)
-    is_valid_bst = Solution().isValidBST(root)
+    root_node = TreeNode.build(root)
+    is_valid_bst = Solution().isValidBST(root_node)
     assert is_valid_bst is expected

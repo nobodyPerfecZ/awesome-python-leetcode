@@ -15,8 +15,8 @@ from awesome_python_leetcode._2_add_two_numbers import ListNode, Solution
 )
 def test_func(l1: List[int], l2: List[int], expected: List[int]):
     """Tests the solution of a LeetCode problem."""
-    l1 = ListNode.build(l1)
-    l2 = ListNode.build(l2)
-    expected = ListNode.build(expected)
-    actual = Solution().addTwoNumbers(l1, l2)
-    assert actual == expected
+    l1_node = ListNode.build(l1)
+    l2_node = ListNode.build(l2)
+    expected_node = ListNode.build(expected)
+    actual = Solution().addTwoNumbers(l1_node, l2_node)
+    assert actual == expected_node

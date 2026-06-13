@@ -4,13 +4,13 @@ from typing import List
 class Solution:
     """Base class for all LeetCode Problems."""
 
-    def flattenBoard(self, board: List[List[int]]) -> int:
-        flatten = []
+    def flattenBoard(self, board: List[List[int]]) -> List[int]:
+        flatten: List[int] = []
         for i, line in enumerate(reversed(board), 0):
             if i % 2 == 0:
                 flatten += line
             else:
-                flatten += reversed(line)
+                flatten += list(reversed(line))
         return flatten
 
     def snakesAndLadders(self, board: List[List[int]]) -> int:
@@ -43,13 +43,13 @@ class Solution:
         Return the least number of dice rolls required to reach the square n2. If it is
         not possible to reach the square, return -1.
         """
-        board = self.flattenBoard(board)
+        flat_board = self.flattenBoard(board)
 
-        def bfs(src, target) -> int:
+        def bfs(src: int, target: int) -> int:
             def neighbors(pos: int) -> List[int]:
                 return [
-                    next_pos if board[next_pos] == -1 else board[next_pos] - 1
-                    for next_pos in range(pos + 1, min(pos + 7, len(board)))
+                    next_pos if flat_board[next_pos] == -1 else flat_board[next_pos] - 1
+                    for next_pos in range(pos + 1, min(pos + 7, len(flat_board)))
                 ]
 
             queue = [(src, 0)]
@@ -64,4 +64,4 @@ class Solution:
                         visited.add(next_pos)
             return -1
 
-        return bfs(0, len(board) - 1)
+        return bfs(0, len(flat_board) - 1)

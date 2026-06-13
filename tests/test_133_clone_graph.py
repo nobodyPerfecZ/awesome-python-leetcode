@@ -15,8 +15,7 @@ from awesome_python_leetcode._133_clone_graph import Node, Solution
 )
 def test_func(edges: List[List[int]], expected: List[List[int]]):
     """Tests the solution of a LeetCode problem."""
-    # TODO: Add tests
     graph = Node.build(edges)
-    expected = Node.build(expected)
+    expected_node = Node.build(expected)
     graph = Solution().cloneGraph(graph)
-    assert graph == expected
+    assert graph == expected_node

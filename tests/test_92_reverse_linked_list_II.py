@@ -14,7 +14,7 @@ from awesome_python_leetcode._92_reverse_linked_list_II import ListNode, Solutio
 )
 def test_func(head: List[int], left: int, right: int, expected: List[int]):
     """Tests the solution of a LeetCode problem."""
-    head = ListNode.build(head)
-    expected = ListNode.build(expected)
-    head = Solution().reverseBetween(head, left, right)
-    assert head == expected
+    head_node = ListNode.build(head)
+    expected_node = ListNode.build(expected)
+    result_node = Solution().reverseBetween(head_node, left, right)
+    assert result_node == expected_node

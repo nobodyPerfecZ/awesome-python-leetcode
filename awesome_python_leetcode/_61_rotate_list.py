@@ -24,15 +24,18 @@ class Solution:
             return head
 
         dummy = ListNode(0, head)
-        left, right = dummy, head
-        while k > 1 and right:
-            right = right.next
+        left: Optional[ListNode] = dummy
+        right_node: Optional[ListNode] = head
+        while k > 1 and right_node is not None:
+            right_node = right_node.next
             k -= 1
-        while right.next:
-            left = left.next
-            right = right.next
+        while right_node is not None and right_node.next is not None:
+            if left is not None:
+                left = left.next
+            right_node = right_node.next
 
-        right.next = dummy.next
-        dummy.next = left.next
-        left.next = None
+        if right_node is not None and left is not None:
+            right_node.next = dummy.next
+            dummy.next = left.next
+            left.next = None
         return dummy.next

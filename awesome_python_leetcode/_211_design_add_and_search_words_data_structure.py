@@ -1,4 +1,4 @@
-from typing import Dict
+from typing import Dict, Optional
 
 
 class WordDictionary:
@@ -16,9 +16,9 @@ class WordDictionary:
 
     def __init__(
         self,
-        val: str = None,
+        val: Optional[str] = None,
         end: bool = False,
-        letters: Dict[str, "WordDictionary"] = None,
+        letters: Optional[Dict[str, "WordDictionary"]] = None,
     ):
         self.val = val
         self.end = end

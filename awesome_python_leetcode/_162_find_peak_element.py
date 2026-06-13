@@ -1,3 +1,4 @@
+import sys
 from typing import List
 
 
@@ -21,8 +22,8 @@ class Solution:
         while left <= right:
             mid = (left + right) // 2
             midVal = nums[mid]
-            leftVal = -float("inf") if mid == 0 else nums[mid - 1]
-            rightVal = -float("inf") if mid == len(nums) - 1 else nums[mid + 1]
+            leftVal = -sys.maxsize if mid == 0 else nums[mid - 1]
+            rightVal = -sys.maxsize if mid == len(nums) - 1 else nums[mid + 1]
 
             if leftVal < midVal and rightVal < midVal:
                 return mid

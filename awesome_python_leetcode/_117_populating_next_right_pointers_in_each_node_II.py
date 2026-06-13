@@ -16,9 +16,9 @@ class TreeNode:
         self.right = right
         self.next = next
 
-    def __eq__(self, other: List[int]) -> bool:
-        if self is None or other is None:
-            return True
+    def __eq__(self, other: object) -> bool:
+        if not isinstance(other, list):
+            return False
 
         cur = self
         i = 0
@@ -28,10 +28,13 @@ class TreeNode:
                     return False
                 i += 1
                 if i < len(other):
-                    cur = TreeNode.find(self, other[i])
+                    val = other[i]
+                    if val is None:
+                        raise ValueError("element cannot be None")
+                    cur = TreeNode.find(self, int(val))  # type: ignore
                 continue
             else:
-                if cur.val != other[i]:
+                if cur is None or cur.val != other[i]:
                     return False
                 i += 1
                 cur = cur.next
@@ -48,11 +51,14 @@ class TreeNode:
             return TreeNode.find(root.left, val) or TreeNode.find(root.right, val)
 
     @staticmethod
-    def build(levelorder: List[int]) -> "TreeNode":
+    def build(levelorder: List[Optional[int]]) -> Optional["TreeNode"]:
         """Build a binary tree from levelorder traversal."""
-        if not levelorder or levelorder[0] is None:
+        if not levelorder:
             return None
-        root = TreeNode(levelorder[0])
+        val_0 = levelorder[0]
+        if val_0 is None:
+            return None
+        root = TreeNode(val_0)
         queue = [root]
 
         i = 1
@@ -60,15 +66,19 @@ class TreeNode:
             node = queue.pop(0)
 
             # Left child
-            if i < len(levelorder) and levelorder[i] is not None:
-                node.left = TreeNode(levelorder[i])
-                queue.append(node.left)
+            if i < len(levelorder):
+                val_l = levelorder[i]
+                if val_l is not None:
+                    node.left = TreeNode(val_l)
+                    queue.append(node.left)
             i += 1
 
             # Right child
-            if i < len(levelorder) and levelorder[i] is not None:
-                node.right = TreeNode(levelorder[i])
-                queue.append(node.right)
+            if i < len(levelorder):
+                val_r = levelorder[i]
+                if val_r is not None:
+                    node.right = TreeNode(val_r)
+                    queue.append(node.right)
             i += 1
         return root
 

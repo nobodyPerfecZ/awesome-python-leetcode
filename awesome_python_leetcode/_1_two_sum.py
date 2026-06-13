@@ -20,4 +20,4 @@ class Solution:
             if diff in values:
                 return [values[diff], i]
             values[n] = i
-        return
+        return []

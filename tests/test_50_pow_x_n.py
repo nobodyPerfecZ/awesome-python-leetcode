@@ -1,4 +1,5 @@
-import numpy as np
+import math
+
 import pytest
 
 from awesome_python_leetcode._50_pow_x_n import Solution
@@ -15,4 +16,4 @@ from awesome_python_leetcode._50_pow_x_n import Solution
 def test_func(x: int, n: int, expected: int):
     """Tests the solution of a LeetCode problem."""
     power = Solution().myPow(x, n)
-    np.testing.assert_allclose(power, expected)
+    assert math.isclose(power, expected)

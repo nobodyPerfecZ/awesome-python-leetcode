@@ -1,3 +1,4 @@
+import sys
 from typing import Optional
 
 from awesome_python_leetcode.tree import TreeNode
@@ -11,7 +12,7 @@ class Solution:
         Given the root of a Binary Search Tree (BST), return the minimum absolute
         difference between the values of any two different nodes in the tree.
         """
-        prev, res = None, float("inf")
+        prev, res = None, sys.maxsize
 
         def dfs(root: Optional[TreeNode]):
             nonlocal prev, res

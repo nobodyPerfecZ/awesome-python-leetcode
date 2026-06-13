@@ -11,6 +11,9 @@
         <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json" alt="Code Style: Ruff">
     </a>
     <img src="https://img.shields.io/badge/python-3.10%2B-blue?logo=python&logoColor=white" alt="Python Version">
+    <a href="https://github.com/nobodyPerfecZ/awesome-python-leetcode/actions/workflows/lint.yml">
+        <img src="https://github.com/nobodyPerfecZ/awesome-python-leetcode/actions/workflows/lint.yml/badge.svg" alt="Lint">
+    </a>
     <a href="https://github.com/nobodyPerfecZ/awesome-python-leetcode/actions/workflows/test.yml">
         <img src="https://github.com/nobodyPerfecZ/awesome-python-leetcode/actions/workflows/test.yml/badge.svg" alt="Tests">
     </a>

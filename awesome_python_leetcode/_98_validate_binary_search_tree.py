@@ -19,7 +19,7 @@ class Solution:
         - Both the left and right subtrees must also be binary search trees.
         """
 
-        def dfs(root: Optional[TreeNode], left: int, right: int):
+        def dfs(root: Optional[TreeNode], left: int, right: int) -> bool:
             if root is None:
                 return True
             else:

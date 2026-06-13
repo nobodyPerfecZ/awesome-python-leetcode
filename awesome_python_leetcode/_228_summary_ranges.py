@@ -30,5 +30,5 @@ class Solution:
                 if left == right - 1:
                     ranges.append(f"{nums[left]}")
                 else:
-                    ranges.append(f"{nums[left]}->{nums[right-1]}")
+                    ranges.append(f"{nums[left]}->{nums[right - 1]}")
         return ranges

@@ -298,6 +298,7 @@
 - [1935 Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/description/)
 - [1964 Find the Longest Valid Obstacle Course at Each Position](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/description/)
 - [2140 Solving Questions With Brainpower](https://leetcode.com/problems/solving-questions-with-brainpower/description/)
+- [2144 Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/description/)
 - [2154 Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/description/)
 - [2215 Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/description/)
 - [2353 Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/description/)
@@ -308,6 +309,8 @@
 - [2785 Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/description/)
 - [2799 Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/description/)
 - [3005 Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/description/)
+- [3120 Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/description/)
+- [3121 Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/description/)
 - [3136 Valid Word](https://leetcode.com/problems/valid-word/description/)
 - [3190 Find Minimum Operations to Make All Elements Divisible by Three](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/description/)
 - [3202 Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/description/)
@@ -315,6 +318,7 @@
 - [3392 Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/description/)
 - [3408 Design Task Manager](https://leetcode.com/problems/design-task-manager/description/)
 - [3446 Sort Matrix by Diagonals](https://leetcode.com/problems/sort-matrix-by-diagonals/description/)
+- [3838 Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/description/)
 
 ## Development 🔧
 

@@ -84,6 +84,7 @@
 - [21 Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)
 - [22 Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)
 - [23 Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)
+- [24 Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)
 - [25 Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)
 - [26 Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
 - [27 Remove Element](https://leetcode.com/problems/remove-element/description/)

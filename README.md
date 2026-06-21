@@ -290,6 +290,7 @@
 - [1456 Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/)
 - [1534 Count Good Triplets](https://leetcode.com/problems/count-good-triplets/description/)
 - [1679 Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/description/)
+- [1721 Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/description/)
 - [1732 Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/description/)
 - [1912 Design Movie Rental System](https://leetcode.com/problems/design-movie-rental-system/description/)
 - [1991 Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/description/)

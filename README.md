@@ -301,6 +301,7 @@
 - [1922 Count Good Numbers](https://leetcode.com/problems/count-good-numbers/description/)
 - [1935 Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/description/)
 - [1964 Find the Longest Valid Obstacle Course at Each Position](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/description/)
+- [2058 Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/description/)
 - [2130 Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/description/)
 - [2140 Solving Questions With Brainpower](https://leetcode.com/problems/solving-questions-with-brainpower/description/)
 - [2144 Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/description/)

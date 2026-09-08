@@ -11,6 +11,9 @@
         <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json" alt="Code Style: Ruff">
     </a>
     <img src="https://img.shields.io/badge/python-3.10%2B-blue?logo=python&logoColor=white" alt="Python Version">
+    <a href="https://leetcode.com/problemset/">
+        <img src="https://img.shields.io/badge/solved-265-orange?logo=leetcode&logoColor=white" alt="Solved Problems">
+    </a>
     <a href="https://github.com/nobodyPerfecZ/awesome-python-leetcode/actions/workflows/lint.yml">
         <img src="https://github.com/nobodyPerfecZ/awesome-python-leetcode/actions/workflows/lint.yml/badge.svg" alt="Lint">
     </a>
@@ -325,6 +328,7 @@
 - [3408 Design Task Manager](https://leetcode.com/problems/design-task-manager/description/)
 - [3446 Sort Matrix by Diagonals](https://leetcode.com/problems/sort-matrix-by-diagonals/description/)
 - [3838 Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/description/)
+- [3870 Count Commas in Range](https://leetcode.com/problems/count-commas-in-range/description/)
 
 ## Development 🔧
 

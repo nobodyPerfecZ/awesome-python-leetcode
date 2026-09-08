@@ -45,7 +45,7 @@ jobs:
 
       - name: Markdown Linting (rumdl)
         run: |
-          uv run rumdl check README.md GEMINI.md CLAUDE.md
+          uv run rumdl check README.md AGENTS.md
 
       - name: Type Checking (ty)
         run: |

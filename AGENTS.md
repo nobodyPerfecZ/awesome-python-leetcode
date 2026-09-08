@@ -1,6 +1,6 @@
-# GEMINI.md
+# CLAUDE.md
 
-This file provide guidance to Gemini CLI when working with code in this repository.
+This file provide guidance to Claude Code when working with code in this repository.
 
 ## Project Overview
 
@@ -20,7 +20,7 @@ This is a Python 3.10+ project containing Python Solutions for LeetCode Problems
 ├── pyproject.toml
 ├── tox.ini
 ├── CLAUDE.md
-└── GEMINI.md
+└── AGENTS.md
 ```
 
 ## Commands
@@ -29,8 +29,8 @@ This is a Python 3.10+ project containing Python Solutions for LeetCode Problems
 - Run tests: `uv run pytest tests`
 - Lint code: `uv run ruff check awesome_python_leetcode tests`
 - Format code: `uv run ruff format awesome_python_leetcode tests`
-- Lint markdown: `uv run rumdl check README.md CLAUDE.md GEMINI.md`
-- Format markdown: `uv run rumdl fmt README.md CLAUDE.md GEMINI.md`
+- Lint markdown: `uv run rumdl check README.md AGENTS.md`
+- Format markdown: `uv run rumdl fmt README.md AGENTS.md`
 - Type check: `uv run ty check awesome_python_leetcode tests`
 - Security scan: `uv run bandit -r awesome_python_leetcode tests`
 - Dependency check: `uv run deptry awesome_python_leetcode tests`
